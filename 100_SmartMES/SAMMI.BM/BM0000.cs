@@ -12,7 +12,7 @@ using SAMMI.Common;
 using System.Windows.Forms;
 
 using Infragistics.Win.UltraWinGrid;
-
+// 커밋푸시 테스트용 주석
 namespace SAMMI.BM
 {
     public partial class BM0000 : SAMMI.Windows.Forms.BaseMDIChildForm
