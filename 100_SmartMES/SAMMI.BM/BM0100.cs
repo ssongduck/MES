@@ -25,7 +25,7 @@ using SAMMI.PopManager;
 using Infragistics.Win.UltraWinGrid;
 using SAMMI.Common;
 #endregion
-
+//커밋푸시풀테스트+이름테스트
 namespace SAMMI.BM
 {
     public partial class BM0100 : SAMMI.Windows.Forms.BaseMDIChildForm
