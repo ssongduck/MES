@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EB34ECA-8FB7-47A1-9413-DD3269EC4687}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMMI.QM</RootNamespace>
+    <AssemblyName>SAMMI.QM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.Charts.v16.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.Data.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.Printing.v16.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.Utils.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraBars.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraCharts.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.UI, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraCharts.v16.2.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.Wizard, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraCharts.v16.2.Wizard.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraEditors.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraPrinting.v16.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SAMMI.Common">
+      <HintPath>..\SmartMES\DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.PopManager">
+      <HintPath>..\SmartMES\DLL\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColumnProperty.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="LayoutControl1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LayoutControl1.Designer.cs">
+      <DependentUpon>LayoutControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0410.designer.cs">
+      <DependentUpon>QM0410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0420.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0420.Designer.cs">
+      <DependentUpon>QM0420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM2710.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM2710.designer.cs">
+      <DependentUpon>QM2710.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultCodeNodes.cs" />
+    <Compile Include="FaultNode.cs" />
+    <Compile Include="LayoutControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LayoutControl.Designer.cs">
+      <DependentUpon>LayoutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QM0401.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0401.Designer.cs">
+      <DependentUpon>QM0401.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM2000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM2000.designer.cs">
+      <DependentUpon>QM2000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM3000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM3000.Designer.cs">
+      <DependentUpon>QM3000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8000.Designer.cs">
+      <DependentUpon>QM8000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8020.Designer.cs">
+      <DependentUpon>QM8020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8100.Designer.cs">
+      <DependentUpon>QM8100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8200.Designer.cs">
+      <DependentUpon>QM8200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8300.Designer.cs">
+      <DependentUpon>QM8300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8300D.cs">
+      <DependentUpon>QM8300D.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QM8300D.Designer.cs">
+      <DependentUpon>QM8300D.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="QM8400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8400.Designer.cs">
+      <DependentUpon>QM8400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8500.Designer.cs">
+      <DependentUpon>QM8500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM8600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM8600.Designer.cs">
+      <DependentUpon>QM8600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1101.Designer.cs">
+      <DependentUpon>QM1101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM2900.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM2900.Designer.cs">
+      <DependentUpon>QM2900.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM2700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM2700.Designer.cs">
+      <DependentUpon>QM2700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QM0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0100.Designer.cs">
+      <DependentUpon>QM0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1200.Designer.cs">
+      <DependentUpon>QM1200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM2800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM2800.Designer.cs">
+      <DependentUpon>QM2800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM4400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM4400.Designer.cs">
+      <DependentUpon>QM4400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM4500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM4500.Designer.cs">
+      <DependentUpon>QM4500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM4700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM4700.Designer.cs">
+      <DependentUpon>QM4700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM5000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM5000.Designer.cs">
+      <DependentUpon>QM5000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM5500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM5500.Designer.cs">
+      <DependentUpon>QM5500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM9201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM9201.designer.cs">
+      <DependentUpon>QM9201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0402.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0402.Designer.cs">
+      <DependentUpon>QM0402.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM9300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM9300.Designer.cs">
+      <DependentUpon>QM9300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM9400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM9400.Designer.cs">
+      <DependentUpon>QM9400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0403.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0403.designer.cs">
+      <DependentUpon>QM0403.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SixSigmaLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SixSigmaLevel.Designer.cs">
+      <DependentUpon>SixSigmaLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statics.cs" />
+    <Compile Include="QM0404.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0404.designer.cs">
+      <DependentUpon>QM0404.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0405.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0405.designer.cs">
+      <DependentUpon>QM0405.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0406.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0406.designer.cs">
+      <DependentUpon>QM0406.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1600.designer.cs">
+      <DependentUpon>QM1600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1601.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1601.designer.cs">
+      <DependentUpon>QM1601.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1602.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1602.designer.cs">
+      <DependentUpon>QM1602.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1603.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1603.designer.cs">
+      <DependentUpon>QM1603.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM1604.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM1604.designer.cs">
+      <DependentUpon>QM1604.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QM0407.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QM0407.designer.cs">
+      <DependentUpon>QM0407.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QM8300D.xsc">
+      <DependentUpon>QM8300D.xsd</DependentUpon>
+    </None>
+    <None Include="QM8300D.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QM8300D.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QM8300D.xss">
+      <DependentUpon>QM8300D.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAMMI.PopUp\SAMMI.PopUp.csproj">
+      <Project>{C8D579CE-FBB1-4DA8-A1BD-848168B8CCB1}</Project>
+      <Name>SAMMI.PopUp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="QM0410.resx">
+      <DependentUpon>QM0410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0420.resx">
+      <DependentUpon>QM0420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM2710.resx">
+      <DependentUpon>QM2710.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0401.resx">
+      <DependentUpon>QM0401.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM2000.resx">
+      <DependentUpon>QM2000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM3000.resx">
+      <DependentUpon>QM3000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8000.resx">
+      <DependentUpon>QM8000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8020.resx">
+      <DependentUpon>QM8020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8100.resx">
+      <DependentUpon>QM8100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8200.resx">
+      <DependentUpon>QM8200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8300.resx">
+      <DependentUpon>QM8300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8400.resx">
+      <DependentUpon>QM8400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8500.resx">
+      <DependentUpon>QM8500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM8600.resx">
+      <DependentUpon>QM8600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="QM0100.resx">
+      <DependentUpon>QM0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1101.resx">
+      <DependentUpon>QM1101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1200.resx">
+      <DependentUpon>QM1200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM2700.resx">
+      <DependentUpon>QM2700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM2800.resx">
+      <DependentUpon>QM2800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM2900.resx">
+      <DependentUpon>QM2900.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM4400.resx">
+      <DependentUpon>QM4400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM4500.resx">
+      <DependentUpon>QM4500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM4700.resx">
+      <DependentUpon>QM4700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM5000.resx">
+      <DependentUpon>QM5000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM5500.resx">
+      <DependentUpon>QM5500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM9201.resx">
+      <DependentUpon>QM9201.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0402.resx">
+      <DependentUpon>QM0402.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM9300.resx">
+      <DependentUpon>QM9300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM9400.resx">
+      <DependentUpon>QM9400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0403.resx">
+      <DependentUpon>QM0403.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0404.resx">
+      <DependentUpon>QM0404.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0405.resx">
+      <DependentUpon>QM0405.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0406.resx">
+      <DependentUpon>QM0406.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1600.resx">
+      <DependentUpon>QM1600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1601.resx">
+      <DependentUpon>QM1601.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1602.resx">
+      <DependentUpon>QM1602.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1603.resx">
+      <DependentUpon>QM1603.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM1604.resx">
+      <DependentUpon>QM1604.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SixSigmaLevel.resx">
+      <DependentUpon>SixSigmaLevel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QM0407.resx">
+      <DependentUpon>QM0407.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EMPTY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0BH325066E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0GC325066A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0BH325066E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0GC325066A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0BH325065H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0BH325065H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DN325065A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DN325066.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DN325065A.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DN325066.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0BH325065H1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_22141-2U000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_22141-2U000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DD325063E.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DD325064C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DD325473C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_0DD325474C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DD325063E.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DD325064C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DD325473C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRONT_0DD325474C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSITEM.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACK_AEN74412101.jpg" />
+    <None Include="Resources\BACK_MEK63867201.jpg" />
+    <None Include="Resources\BACK_MEK63887101.jpg" />
+    <None Include="Resources\BACK_MEK63887201.jpg" />
+    <None Include="Resources\BACK_MEK63946601.jpg" />
+    <None Include="Resources\BACK_MEK64266601.jpg" />
+    <None Include="Resources\BACK_MEK64466501.jpg" />
+    <None Include="Resources\BACK_MEK64486501.jpg" />
+    <None Include="Resources\BACK_MEK65166901.jpg" />
+    <None Include="Resources\BACK_MEK65172301.jpg" />
+    <None Include="Resources\FRONT_AEN74412101.jpg" />
+    <None Include="Resources\FRONT_MEK63867201.jpg" />
+    <None Include="Resources\FRONT_MEK63887101.jpg" />
+    <None Include="Resources\FRONT_MEK63887201.jpg" />
+    <None Include="Resources\FRONT_MEK63946601.jpg" />
+    <None Include="Resources\FRONT_MEK64266601.jpg" />
+    <None Include="Resources\FRONT_MEK64466501.jpg" />
+    <None Include="Resources\FRONT_MEK64486501.jpg" />
+    <None Include="Resources\FRONT_MEK65166901.jpg" />
+    <None Include="Resources\FRONT_MEK65172301.jpg" />
+    <Content Include="Resources\BACK_21111_07000.jpg" />
+    <Content Include="Resources\BACK_21111_07500.jpg" />
+    <Content Include="Resources\BACK_21111_08000.jpg" />
+    <Content Include="Resources\BACK_GS22701_2.jpg" />
+    <Content Include="Resources\BACK_GS22701_5.jpg" />
+    <None Include="Resources\endplate.png" />
+    <Content Include="Resources\FRONT_21111_07000.jpg" />
+    <Content Include="Resources\FRONT_21111_07500.jpg" />
+    <Content Include="Resources\FRONT_21111_08000.jpg" />
+    <Content Include="Resources\FRONT_GS22701_2.jpg" />
+    <Content Include="Resources\FRONT_GS22701_5.jpg" />
+    <Content Include="Resources\no-camera.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)$(SolutionName)\bin\Debug\*.*</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
