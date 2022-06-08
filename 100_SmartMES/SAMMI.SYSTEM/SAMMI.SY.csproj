@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63F585CF-A070-4E03-B9D9-DAC555DFE0E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMMI.SY</RootNamespace>
+    <AssemblyName>SAMMI.SY</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SAMMI.Common">
+      <HintPath>..\SmartMES\DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SmartMES\DLL\SAMMI.Control.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SAMMI.PopManager">
+      <HintPath>..\SmartMES\DLL\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SY0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0000.Designer.cs">
+      <DependentUpon>SY0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0000D.cs">
+      <DependentUpon>SY0000D.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SY0000D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SY0000D.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SY0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0100.designer.cs">
+      <DependentUpon>SY0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0100D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SY0100D.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SY0101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0101.designer.cs">
+      <DependentUpon>SY0101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0101D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SY0101D.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SY0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0200.designer.cs">
+      <DependentUpon>SY0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0200D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SY0200D.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SY0201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0201.Designer.cs">
+      <DependentUpon>SY0201.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0300.designer.cs">
+      <DependentUpon>SY0300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0300D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SY0300D.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SY0400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SY0400.designer.cs">
+      <DependentUpon>SY0400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SY0400D.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0000.resx">
+      <DependentUpon>SY0000.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0100.resx">
+      <DependentUpon>SY0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0101.resx">
+      <DependentUpon>SY0101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0200.resx">
+      <DependentUpon>SY0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0201.resx">
+      <DependentUpon>SY0201.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0300.resx">
+      <DependentUpon>SY0300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SY0400.resx">
+      <DependentUpon>SY0400.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="AppStyle.isl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SY0000D.xsc">
+      <DependentUpon>SY0000D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0000D.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SY0000D.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SY0000D.xss">
+      <DependentUpon>SY0000D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0100D.xsc">
+      <DependentUpon>SY0100D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0100D.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SY0100D.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SY0100D.xss">
+      <DependentUpon>SY0100D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0101D.xsc">
+      <DependentUpon>SY0101D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0101D.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SY0101D.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SY0101D.xss">
+      <DependentUpon>SY0101D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0200D.xsc">
+      <DependentUpon>SY0200D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0200D.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SY0200D.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SY0200D.xss">
+      <DependentUpon>SY0200D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0300D.xsc">
+      <DependentUpon>SY0300D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0300D.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SY0300D.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SY0300D.xss">
+      <DependentUpon>SY0300D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0400D.xsc">
+      <DependentUpon>SY0400D.xsd</DependentUpon>
+    </None>
+    <None Include="SY0400D.xsd" />
+    <None Include="SY0400D.xss">
+      <DependentUpon>SY0400D.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAMMI.PopUp\SAMMI.PopUp.csproj">
+      <Project>{C8D579CE-FBB1-4DA8-A1BD-848168B8CCB1}</Project>
+      <Name>SAMMI.PopUp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)$(SolutionName)\bin\Debug\*.*</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
