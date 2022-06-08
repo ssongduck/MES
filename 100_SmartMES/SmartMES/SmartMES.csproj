@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EB2A7E8-DE91-4290-8080-B292B0A0F8B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartMES</RootNamespace>
+    <AssemblyName>SmartMES</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>XviD4PSP5.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Microsoft Enterprise Library 5.0\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Microsoft Enterprise Library 5.0\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>DLL\SAMMI.Control.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SAMMI.MAIN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SAMMI.MAIN.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.PopManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\SYCHA\Desktop\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZZ0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZZ0000.designer.cs">
+      <DependentUpon>ZZ0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZZ0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZZ0200.designer.cs">
+      <DependentUpon>ZZ0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZZ0300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZZ0300.designer.cs">
+      <DependentUpon>ZZ0300.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ZZ0000.resx">
+      <DependentUpon>ZZ0000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZZ0200.resx">
+      <DependentUpon>ZZ0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZZ0300.resx">
+      <DependentUpon>ZZ0300.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Style.isl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LIVEUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN3.bmp" />
+    <None Include="Resources\eco.jpg" />
+    <Content Include="DLL\SAMMI.Control.dll" />
+    <Content Include="DLL\SAMMI.MAIN.dll" />
+    <Content Include="DLL\SAMMI.PopManager.dll" />
+    <Content Include="DLL\SAMMI.Windows.Forms.dll" />
+    <None Include="Resources\EV Logo.png" />
+    <None Include="Resources\BACK_0BH325065H.png" />
+    <None Include="Resources\BACK_0BH325065H1.png" />
+    <None Include="Resources\BACK_0BH325066E.png" />
+    <None Include="Resources\BACK_0DD325063E.jpg" />
+    <None Include="Resources\BACK_0DD325064C.jpg" />
+    <None Include="Resources\BACK_0DD325473C.jpg" />
+    <None Include="Resources\BACK_0DD325474C.jpg" />
+    <None Include="Resources\BACK_0DN325065A.jpg" />
+    <None Include="Resources\BACK_0DN325066.jpg" />
+    <None Include="Resources\BACK_0GC325066A.png" />
+    <None Include="Resources\BACK_22141-2U000.jpg" />
+    <None Include="Resources\BACK_AEN74412101.jpg" />
+    <None Include="Resources\BACK_MEK63867201.jpg" />
+    <None Include="Resources\BACK_MEK63887101.jpg" />
+    <None Include="Resources\BACK_MEK63887201.jpg" />
+    <None Include="Resources\BACK_MEK63946601.jpg" />
+    <None Include="Resources\BACK_MEK64266601.jpg" />
+    <None Include="Resources\BACK_MEK64466501.jpg" />
+    <None Include="Resources\BACK_MEK64486501.jpg" />
+    <None Include="Resources\BACK_MEK65166901.jpg" />
+    <None Include="Resources\BACK_MEK65172301.jpg" />
+    <None Include="Resources\EMPTY.png" />
+    <None Include="Resources\FRONT_0BH325065H.png" />
+    <None Include="Resources\FRONT_0BH325066E.png" />
+    <None Include="Resources\FRONT_0DD325063E.jpg" />
+    <None Include="Resources\FRONT_0DD325064C.jpg" />
+    <None Include="Resources\FRONT_0DD325473C.jpg" />
+    <None Include="Resources\FRONT_0DD325474C.jpg" />
+    <None Include="Resources\FRONT_0DN325065A.jpg" />
+    <None Include="Resources\FRONT_0DN325066.jpg" />
+    <None Include="Resources\FRONT_0GC325066A.png" />
+    <None Include="Resources\FRONT_22141-2U000.jpg" />
+    <None Include="Resources\FRONT_AEN74412101.jpg" />
+    <None Include="Resources\FRONT_MEK63867201.jpg" />
+    <None Include="Resources\FRONT_MEK63887101.jpg" />
+    <None Include="Resources\FRONT_MEK63887201.jpg" />
+    <None Include="Resources\FRONT_MEK63946601.jpg" />
+    <None Include="Resources\FRONT_MEK64266601.jpg" />
+    <None Include="Resources\FRONT_MEK64466501.jpg" />
+    <None Include="Resources\FRONT_MEK64486501.jpg" />
+    <None Include="Resources\FRONT_MEK65166901.jpg" />
+    <None Include="Resources\FRONT_MEK65172301.jpg" />
+    <None Include="Resources\INSITEM.jpg" />
+    <Content Include="Resources\LOGIN3.jpg" />
+    <None Include="Resources\MES Logo.png" />
+    <None Include="Resources\no-camera.png" />
+    <None Include="Resources\SK_logo.png" />
+    <None Include="Resources\SKev_logo.png" />
+    <Content Include="XviD4PSP5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SLOAGENTLib">
+      <Guid>{BD3CDFD1-E6AF-4FA9-9C0B-CE730179E31E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
