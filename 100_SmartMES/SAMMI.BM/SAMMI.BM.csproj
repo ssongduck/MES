@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B9B9155F-6E0C-4482-AEFE-343D1B8DA9D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMMI.BM</RootNamespace>
+    <AssemblyName>SAMMI.BM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SAMMI.Common">
+      <HintPath>..\SmartMES\DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.PopManager">
+      <HintPath>..\SmartMES\DLL\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BM0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0100.Designer.cs">
+      <DependentUpon>BM0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0000.Designer.cs">
+      <DependentUpon>BM0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0600.Designer.cs">
+      <DependentUpon>BM0600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1000.designer.cs">
+      <DependentUpon>BM1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM2110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM2110.Designer.cs">
+      <DependentUpon>BM2110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM3400D.cs">
+      <DependentUpon>BM3400D.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BM3400D.Designer.cs">
+      <DependentUpon>BM3400D.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="BM3410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM3410.designer.cs">
+      <DependentUpon>BM3410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM4000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM4000.Designer.cs">
+      <DependentUpon>BM4000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM4000D.Designer.cs">
+      <DependentUpon>BM4000D.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="BM4610.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM4610.designer.cs">
+      <DependentUpon>BM4610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM5010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM5010.designer.cs">
+      <DependentUpon>BM5010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM5210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM5210.Designer.cs">
+      <DependentUpon>BM5210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM6400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM6400.Designer.cs">
+      <DependentUpon>BM6400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM8100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM8100.Designer.cs">
+      <DependentUpon>BM8100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM8200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM8200.Designer.cs">
+      <DependentUpon>BM8200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Biz.cs" />
+    <Compile Include="BM0620.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0620.Designer.cs">
+      <DependentUpon>BM0620.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM7100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM7100.Designer.cs">
+      <DependentUpon>BM7100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM6000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM6000.Designer.cs">
+      <DependentUpon>BM6000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM7300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM7300.Designer.cs">
+      <DependentUpon>BM7300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM7500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM7500.Designer.cs">
+      <DependentUpon>BM7500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0630.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0630.Designer.cs">
+      <DependentUpon>BM0630.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MO0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MO0000.designer.cs">
+      <DependentUpon>MO0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MO1001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MO1001.designer.cs">
+      <DependentUpon>MO1001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BM0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0200.Designer.cs">
+      <DependentUpon>BM0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0400.Designer.cs">
+      <DependentUpon>BM0400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0500.Designer.cs">
+      <DependentUpon>BM0500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM0700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM0700.Designer.cs">
+      <DependentUpon>BM0700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1100.Designer.cs">
+      <DependentUpon>BM1100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1500.Designer.cs">
+      <DependentUpon>BM1500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1600.Designer.cs">
+      <DependentUpon>BM1600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1800.Designer.cs">
+      <DependentUpon>BM1800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM3400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM3400.Designer.cs">
+      <DependentUpon>BM3400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM3800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM3800.Designer.cs">
+      <DependentUpon>BM3800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM3900.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM3900.Designer.cs">
+      <DependentUpon>BM3900.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM4600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM4600.designer.cs">
+      <DependentUpon>BM4600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM5100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM5100.Designer.cs">
+      <DependentUpon>BM5100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM5020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM5020.designer.cs">
+      <DependentUpon>BM5020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1110.Designer.cs">
+      <DependentUpon>BM1110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM9400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM9400.Designer.cs">
+      <DependentUpon>BM9400.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BM0000.resx">
+      <DependentUpon>BM0000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0100.resx">
+      <DependentUpon>BM0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0600.resx">
+      <DependentUpon>BM0600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0630.resx">
+      <DependentUpon>BM0630.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1000.resx">
+      <DependentUpon>BM1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0620.resx">
+      <DependentUpon>BM0620.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM2110.resx">
+      <DependentUpon>BM2110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM3410.resx">
+      <DependentUpon>BM3410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM4000.resx">
+      <DependentUpon>BM4000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM4610.resx">
+      <DependentUpon>BM4610.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM5010.resx">
+      <DependentUpon>BM5010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM5210.resx">
+      <DependentUpon>BM5210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM6000.resx">
+      <DependentUpon>BM6000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM6400.resx">
+      <DependentUpon>BM6400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM7100.resx">
+      <DependentUpon>BM7100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM7300.resx">
+      <DependentUpon>BM7300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM7500.resx">
+      <DependentUpon>BM7500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM8100.resx">
+      <DependentUpon>BM8100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM8200.resx">
+      <DependentUpon>BM8200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MO0000.resx">
+      <DependentUpon>MO0000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MO1001.resx">
+      <DependentUpon>MO1001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="BM0200.resx">
+      <DependentUpon>BM0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0400.resx">
+      <DependentUpon>BM0400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0500.resx">
+      <DependentUpon>BM0500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM0700.resx">
+      <DependentUpon>BM0700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1100.resx">
+      <DependentUpon>BM1100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1500.resx">
+      <DependentUpon>BM1500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1600.resx">
+      <DependentUpon>BM1600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1800.resx">
+      <DependentUpon>BM1800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM3400.resx">
+      <DependentUpon>BM3400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM3800.resx">
+      <DependentUpon>BM3800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM3900.resx">
+      <DependentUpon>BM3900.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM4600.resx">
+      <DependentUpon>BM4600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM5100.resx">
+      <DependentUpon>BM5100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM5020.resx">
+      <DependentUpon>BM5020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1110.resx">
+      <DependentUpon>BM1110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM9400.resx">
+      <DependentUpon>BM9400.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="BM3400D.xsc">
+      <DependentUpon>BM3400D.xsd</DependentUpon>
+    </None>
+    <None Include="BM3400D.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BM3400D.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BM3400D.xss">
+      <DependentUpon>BM3400D.xsd</DependentUpon>
+    </None>
+    <None Include="BM4000D.xsc">
+      <DependentUpon>BM4000D.xsd</DependentUpon>
+    </None>
+    <None Include="BM4000D.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BM4000D.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="BM4000D.xss">
+      <DependentUpon>BM4000D.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best-wallpaper_net_20120523_142026.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAMMI.PopUp\SAMMI.PopUp.csproj">
+      <Project>{C8D579CE-FBB1-4DA8-A1BD-848168B8CCB1}</Project>
+      <Name>SAMMI.PopUp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)$(SolutionName)\bin\Debug\*.*</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

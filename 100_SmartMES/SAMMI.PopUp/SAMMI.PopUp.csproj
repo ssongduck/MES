@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8D579CE-FBB1-4DA8-A1BD-848168B8CCB1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMMI.PopUp</RootNamespace>
+    <AssemblyName>SAMMI.PopUp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Documents.Excel.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SAMMI.Common">
+      <HintPath>..\SmartMES\DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.PopManager">
+      <HintPath>..\SmartMES\DLL\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BizGridManagerEX.cs" />
+    <Compile Include="BizTextBoxManagerEX.cs" />
+    <Compile Include="POP_ORDERNO_HG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_ORDERNO_HG.Designer.cs">
+      <DependentUpon>POP_ORDERNO_HG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpManagerEX.cs" />
+    <Compile Include="PopUp_Biz.cs" />
+    <Compile Include="POP_TBM0100[품목].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0100[품목].Designer.cs">
+      <DependentUpon>POP_TBM0100[품목].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0101.Designer.cs">
+      <DependentUpon>POP_TBM0101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0200[작업자].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0200[작업자].designer.cs">
+      <DependentUpon>POP_TBM0200[작업자].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0300[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0300[].designer.cs">
+      <DependentUpon>POP_TBM0300[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0400[작업장].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0400[작업장].designer.cs">
+      <DependentUpon>POP_TBM0400[작업장].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0500[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0500[].designer.cs">
+      <DependentUpon>POP_TBM0500[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0600[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0600[].designer.cs">
+      <DependentUpon>POP_TBM0600[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0610.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0610.Designer.cs">
+      <DependentUpon>POP_TBM0610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0700[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0700[].designer.cs">
+      <DependentUpon>POP_TBM0700[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0800[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0800[].designer.cs">
+      <DependentUpon>POP_TBM0800[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0900[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0900[].designer.cs">
+      <DependentUpon>POP_TBM0900[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM1000[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM1000[].designer.cs">
+      <DependentUpon>POP_TBM1000[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM1100[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM1100[].designer.cs">
+      <DependentUpon>POP_TBM1100[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM1500[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM1500[].designer.cs">
+      <DependentUpon>POP_TBM1500[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM2500[품목별불량].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM2500[품목별불량].designer.cs">
+      <DependentUpon>POP_TBM2500[품목별불량].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM3400[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM3400[].designer.cs">
+      <DependentUpon>POP_TBM3400[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM3700[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM3700[].designer.cs">
+      <DependentUpon>POP_TBM3700[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM4100[].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM4100[].designer.cs">
+      <DependentUpon>POP_TBM4100[].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM5100[규격].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM5100[규격].designer.cs">
+      <DependentUpon>POP_TBM5100[규격].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM5200[특성].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM5200[특성].designer.cs">
+      <DependentUpon>POP_TBM5200[특성].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TMO0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TMO0000.designer.cs">
+      <DependentUpon>POP_TMO0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TSY0200[사용자].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TSY0200[사용자].designer.cs">
+      <DependentUpon>POP_TSY0200[사용자].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TTO0100[TOOL].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TTO0100[TOOL].Designer.cs">
+      <DependentUpon>POP_TTO0100[TOOL].cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="POP_TBM0000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0000.designer.cs">
+      <DependentUpon>POP_TBM0000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0401[작업장_라우팅].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0401[작업장_라우팅].designer.cs">
+      <DependentUpon>POP_TBM0401[작업장_라우팅].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM0301[거래처].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM0301[거래처].designer.cs">
+      <DependentUpon>POP_TBM0301[거래처].cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM1600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM1600.Designer.cs">
+      <DependentUpon>POP_TBM1600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TBM5210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TBM5210.Designer.cs">
+      <DependentUpon>POP_TBM5210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POP_TCM0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POP_TCM0200.designer.cs">
+      <DependentUpon>POP_TCM0200.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="POP_ORDERNO_HG.resx">
+      <DependentUpon>POP_ORDERNO_HG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0100[품목].resx">
+      <DependentUpon>POP_TBM0100[품목].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0101.resx">
+      <DependentUpon>POP_TBM0101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0200[작업자].resx">
+      <DependentUpon>POP_TBM0200[작업자].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0300[].resx">
+      <DependentUpon>POP_TBM0300[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0400[작업장].resx">
+      <DependentUpon>POP_TBM0400[작업장].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0500[].resx">
+      <DependentUpon>POP_TBM0500[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0600[].resx">
+      <DependentUpon>POP_TBM0600[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0610.resx">
+      <DependentUpon>POP_TBM0610.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0700[].resx">
+      <DependentUpon>POP_TBM0700[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0800[].resx">
+      <DependentUpon>POP_TBM0800[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0900[].resx">
+      <DependentUpon>POP_TBM0900[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM1000[].resx">
+      <DependentUpon>POP_TBM1000[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM1100[].resx">
+      <DependentUpon>POP_TBM1100[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM1500[].resx">
+      <DependentUpon>POP_TBM1500[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM2500[품목별불량].resx">
+      <DependentUpon>POP_TBM2500[품목별불량].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM3400[].resx">
+      <DependentUpon>POP_TBM3400[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM3700[].resx">
+      <DependentUpon>POP_TBM3700[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM4100[].resx">
+      <DependentUpon>POP_TBM4100[].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM5100[규격].resx">
+      <DependentUpon>POP_TBM5100[규격].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM5200[특성].resx">
+      <DependentUpon>POP_TBM5200[특성].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TMO0000.resx">
+      <DependentUpon>POP_TMO0000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TSY0200[사용자].resx">
+      <DependentUpon>POP_TSY0200[사용자].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TTO0100[TOOL].resx">
+      <DependentUpon>POP_TTO0100[TOOL].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0000.resx">
+      <DependentUpon>POP_TBM0000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0401[작업장_라우팅].resx">
+      <DependentUpon>POP_TBM0401[작업장_라우팅].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM0301[거래처].resx">
+      <DependentUpon>POP_TBM0301[거래처].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM1600.resx">
+      <DependentUpon>POP_TBM1600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TBM5210.resx">
+      <DependentUpon>POP_TBM5210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POP_TCM0200.resx">
+      <DependentUpon>POP_TCM0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)$(SolutionName)\bin\Debug\*.*</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

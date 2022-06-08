@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{413F3FAE-6E85-4BF8-A661-19C73E64433A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMMI.PP</RootNamespace>
+    <AssemblyName>SAMMI.PP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.UI, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2.Wizard, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.XtraGrid.v16.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDock.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGauge.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabbedMdi.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="SAMMI.Common">
+      <HintPath>..\SmartMES\DLL\SAMMI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Control.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.PopManager">
+      <HintPath>..\SmartMES\DLL\SAMMI.PopManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SAMMI.Windows.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SmartMES\DLL\SAMMI.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PP8000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP8000.Designer.cs">
+      <DependentUpon>PP8000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0200.Designer.cs">
+      <DependentUpon>PP0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0300.Designer.cs">
+      <DependentUpon>PP0300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0340.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0340.designer.cs">
+      <DependentUpon>PP0340.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0355.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0355.Designer.cs">
+      <DependentUpon>PP0355.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0360.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0360.Designer.cs">
+      <DependentUpon>PP0360.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0370.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0370.designer.cs">
+      <DependentUpon>PP0370.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0500.Designer.cs">
+      <DependentUpon>PP0500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0700.Designer.cs">
+      <DependentUpon>PP0700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0800.designer.cs">
+      <DependentUpon>PP0800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1000.designer.cs">
+      <DependentUpon>PP1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1100.Designer.cs">
+      <DependentUpon>PP1100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1110.designer.cs">
+      <DependentUpon>PP1110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1200.Designer.cs">
+      <DependentUpon>PP1200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1300.Designer.cs">
+      <DependentUpon>PP1300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1400.Designer.cs">
+      <DependentUpon>PP1400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1600.Designer.cs">
+      <DependentUpon>PP1600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP1700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP1700.Designer.cs">
+      <DependentUpon>PP1700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP3700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP3700.designer.cs">
+      <DependentUpon>PP3700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP3800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP3800.designer.cs">
+      <DependentUpon>PP3800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP3820.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP3820.designer.cs">
+      <DependentUpon>PP3820.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP4500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP4500.Designer.cs">
+      <DependentUpon>PP4500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP4600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP4600.designer.cs">
+      <DependentUpon>PP4600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP5100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP5100.designer.cs">
+      <DependentUpon>PP5100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP8100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP8100.Designer.cs">
+      <DependentUpon>PP8100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP9300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP9300.designer.cs">
+      <DependentUpon>PP9300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP9400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP9400.designer.cs">
+      <DependentUpon>PP9400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP9500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP9500.designer.cs">
+      <DependentUpon>PP9500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP9600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP9600.Designer.cs">
+      <DependentUpon>PP9600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP9700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP9700.Designer.cs">
+      <DependentUpon>PP9700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PP0310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0310.Designer.cs">
+      <DependentUpon>PP0310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0320.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0320.Designer.cs">
+      <DependentUpon>PP0320.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0330.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0330.Designer.cs">
+      <DependentUpon>PP0330.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0350.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0350.designer.cs">
+      <DependentUpon>PP0350.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP6000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP6000.designer.cs">
+      <DependentUpon>PP6000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0341.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0341.designer.cs">
+      <DependentUpon>PP0341.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0342.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0342.designer.cs">
+      <DependentUpon>PP0342.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0410.designer.cs">
+      <DependentUpon>PP0410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0343.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0343.designer.cs">
+      <DependentUpon>PP0343.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0420.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0420.designer.cs">
+      <DependentUpon>PP0420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0430.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0430.designer.cs">
+      <DependentUpon>PP0430.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0440.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0440.designer.cs">
+      <DependentUpon>PP0440.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0450.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0450.designer.cs">
+      <DependentUpon>PP0450.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0460.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0460.designer.cs">
+      <DependentUpon>PP0460.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0470.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0470.designer.cs">
+      <DependentUpon>PP0470.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP0480.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP0480.designer.cs">
+      <DependentUpon>PP0480.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAMMI.PopUp\SAMMI.PopUp.csproj">
+      <Project>{C8D579CE-FBB1-4DA8-A1BD-848168B8CCB1}</Project>
+      <Name>SAMMI.PopUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAMMI.QM\SAMMI.QM.csproj">
+      <Project>{4EB34ECA-8FB7-47A1-9413-DD3269EC4687}</Project>
+      <Name>SAMMI.QM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PP8000.resx">
+      <DependentUpon>PP8000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0200.resx">
+      <DependentUpon>PP0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0300.resx">
+      <DependentUpon>PP0300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0340.resx">
+      <DependentUpon>PP0340.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0355.resx">
+      <DependentUpon>PP0355.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0360.resx">
+      <DependentUpon>PP0360.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0370.resx">
+      <DependentUpon>PP0370.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0500.resx">
+      <DependentUpon>PP0500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0700.resx">
+      <DependentUpon>PP0700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0800.resx">
+      <DependentUpon>PP0800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1000.resx">
+      <DependentUpon>PP1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1100.resx">
+      <DependentUpon>PP1100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1110.resx">
+      <DependentUpon>PP1110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1200.resx">
+      <DependentUpon>PP1200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1300.resx">
+      <DependentUpon>PP1300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1400.resx">
+      <DependentUpon>PP1400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1600.resx">
+      <DependentUpon>PP1600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP1700.resx">
+      <DependentUpon>PP1700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP3700.resx">
+      <DependentUpon>PP3700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP3800.resx">
+      <DependentUpon>PP3800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP3820.resx">
+      <DependentUpon>PP3820.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP4500.resx">
+      <DependentUpon>PP4500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP4600.resx">
+      <DependentUpon>PP4600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP5100.resx">
+      <DependentUpon>PP5100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP8100.resx">
+      <DependentUpon>PP8100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP9300.resx">
+      <DependentUpon>PP9300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP9400.resx">
+      <DependentUpon>PP9400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP9500.resx">
+      <DependentUpon>PP9500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP9600.resx">
+      <DependentUpon>PP9600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP9700.resx">
+      <DependentUpon>PP9700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0310.resx">
+      <DependentUpon>PP0310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0320.resx">
+      <DependentUpon>PP0320.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0330.resx">
+      <DependentUpon>PP0330.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0350.resx">
+      <DependentUpon>PP0350.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP6000.resx">
+      <DependentUpon>PP6000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0341.resx">
+      <DependentUpon>PP0341.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0342.resx">
+      <DependentUpon>PP0342.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0410.resx">
+      <DependentUpon>PP0410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0343.resx">
+      <DependentUpon>PP0343.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0420.resx">
+      <DependentUpon>PP0420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0430.resx">
+      <DependentUpon>PP0430.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0440.resx">
+      <DependentUpon>PP0440.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0450.resx">
+      <DependentUpon>PP0450.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0460.resx">
+      <DependentUpon>PP0460.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0470.resx">
+      <DependentUpon>PP0470.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP0480.resx">
+      <DependentUpon>PP0480.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetDir)*.* $(SolutionDir)$(SolutionName)\bin\Debug\*.*</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
