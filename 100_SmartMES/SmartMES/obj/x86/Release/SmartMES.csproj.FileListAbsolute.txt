@@ -1,0 +1,3 @@
+D:\SVN_#1\02.SK_Sources\02.MES\100_SmartMES\SmartMES\bin\Release\SmartMES.exe.config
+D:\SVN_#1\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Release\Interop.SLOAGENTLib.dll
+D:\SVN_#1\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Release\SmartMES.csproj.ResolveComReference.cache
