@@ -468,13 +468,13 @@
             appearance31.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.grid1.DisplayLayout.Override.ActiveRowAppearance = appearance31;
             this.grid1.DisplayLayout.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.True;
-            this.grid1.DisplayLayout.Override.AllowMultiCellOperations = ((Infragistics.Win.UltraWinGrid.AllowMultiCellOperation)((((((((Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Copy | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.CopyWithHeaders)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Cut)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Delete)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Paste)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Undo)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Redo)
-                        | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Reserved)));
+            this.grid1.DisplayLayout.Override.AllowMultiCellOperations = ((Infragistics.Win.UltraWinGrid.AllowMultiCellOperation)((((((((Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Copy | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.CopyWithHeaders) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Cut) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Delete) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Paste) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Undo) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Redo) 
+            | Infragistics.Win.UltraWinGrid.AllowMultiCellOperation.Reserved)));
             this.grid1.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
             this.grid1.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
             appearance32.BackColor = System.Drawing.SystemColors.Window;
@@ -515,7 +515,7 @@
             this.grid1.UpdateMode = Infragistics.Win.UltraWinGrid.UpdateMode.OnCellChange;
             this.grid1.UseFlatMode = Infragistics.Win.DefaultableBoolean.True;
             this.grid1.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
-            this.grid1.InitializeRow += new Infragistics.Win.UltraWinGrid.InitializeRowEventHandler(this.grid1_InitializeRow_1);
+            this.grid1.InitializeRow += new Infragistics.Win.UltraWinGrid.InitializeRowEventHandler(this.grid1_InitializeRow);
             // 
             // cboManager
             // 

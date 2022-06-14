@@ -74,27 +74,25 @@ namespace SAMMI.PP
         public override void DoInquire()
         {
             SqlDBHelper helper = new SqlDBHelper(false);
-            SqlParameter[] param = new SqlParameter[7];
+            SqlParameter[] param = new SqlParameter[5];
 
             try
             {
                 DtChange.Clear();
 
                 string sPlantCode = LoginInfo.UserPlantCode;                                        // 사업장(공장)
-                string sStartDate = string.Format("{0:yyyy-MM-dd}", CboStartdate_H.Value);                          // 생산시작일자
-                string sEndDate = string.Format("{0:yyyy-MM-dd}", CboEnddate_H.Value);                              // 생산  끝일자
-                string sWorkCenterCode = this.txtWorkCenterCode.Text.Trim();                                        // 작업장 코드
-                 string sItemCode = this.txtItemCode.Text.Trim();                                                    // 품목코드
+                string sStartDate = string.Format("{0:yyyy-MM-dd}", CboStartdate_H.Value);          // 생산시작일자
+                string sEndDate = string.Format("{0:yyyy-MM-dd}", CboEnddate_H.Value);              // 생산  끝일자
+                string sWorkCenterCode = this.txtWorkCenterCode.Text.Trim();                        // 작업장 코드
+                 string sItemCode = this.txtItemCode.Text.Trim();                                   // 품목코드
 
                 base.DoInquire();
 
-                param[0] = helper.CreateParameter("@PlantCode", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
-                param[1] = helper.CreateParameter("@WorkCenterCode", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
-                param[2] = helper.CreateParameter("@StartDate", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
-                param[3] = helper.CreateParameter("@EndDate", sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
-                param[4] = helper.CreateParameter("@ItemCode", sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
-                param[5] = helper.CreateParameter("@Lotno_in", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
-                param[6] = helper.CreateParameter("@Lotno_out", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
+                param[0] = helper.CreateParameter("@as_plantcode",  sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
+                param[1] = helper.CreateParameter("@as_workcenter", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
+                param[2] = helper.CreateParameter("@as_begin",      sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
+                param[3] = helper.CreateParameter("@as_end",        sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
+                param[4] = helper.CreateParameter("@as_itemcode",   sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
 
                 rtnDtTemp = helper.FillTable("USP_PP0360_S1N", CommandType.StoredProcedure, param);
    
@@ -123,21 +121,32 @@ namespace SAMMI.PP
             _GridUtil.InitializeGrid(this.grid1, true, false, false, "", false);
             
             //90 95 160 70 170 100 170 100 100 140 200 80 50 100 130 130 80 100 100 100 100 140 100 
+            //_GridUtil.InitColumnUltraGrid(grid1, "PlantCode", "사업장", false, GridColDataType_emu.VarChar, 90, 100, Infragistics.Win.HAlign.Center, false, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "WorkCenterCode", "작업장", false, GridColDataType_emu.VarChar, 70, 100, Infragistics.Win.HAlign.Left, false, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "WorkCenterName", "작업장명", false, GridColDataType_emu.VarChar, 120, 100, Infragistics.Win.HAlign.Left, false, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "OutDate", "작업일시", false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "CarType", "차종", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "ItemCode_Out", "품번", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "ItemNm_Out", "품명", false, GridColDataType_emu.VarChar, 150, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "LotNO_Out", "LOT번호", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "InQty", "투입수량", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,###", null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "OutQty", "생산수량", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,###", null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "ItemCode_In", "투입품번", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "ItemNm_In", "투입품명", false, GridColDataType_emu.VarChar, 150, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "LotNO_In", "투입LOT번호", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            //_GridUtil.InitColumnUltraGrid(grid1, "InDate", "투입일시", false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
 
-            _GridUtil.InitColumnUltraGrid(grid1, "PlantCode", "사업장", false, GridColDataType_emu.VarChar, 90, 100, Infragistics.Win.HAlign.Center, false, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "WorkCenterCode", "작업장", false, GridColDataType_emu.VarChar, 70, 100, Infragistics.Win.HAlign.Left, false, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "WorkCenterName", "작업장명", false, GridColDataType_emu.VarChar, 120, 100, Infragistics.Win.HAlign.Left, false, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "OutDate", "작업일시", false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "CarType", "차종", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "ItemCode_Out", "품번", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "ItemNm_Out", "품명", false, GridColDataType_emu.VarChar, 150, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "LotNO_Out", "LOT번호", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "InQty", "투입수량", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,###", null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "OutQty", "생산수량", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,###", null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "ItemCode_In", "투입품번", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "ItemNm_In", "투입품명", false, GridColDataType_emu.VarChar, 150, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "LotNO_In", "투입LOT번호", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "InDate", "투입일시", false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+
+            _GridUtil.InitColumnUltraGrid(grid1, "PlantCode",      "사업장",     false, GridColDataType_emu.VarChar,    90, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "WorkCenterCode", "작업장",     false, GridColDataType_emu.VarChar,    70, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "MoldNo",         "금형",       false, GridColDataType_emu.VarChar,    70, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);                        
+            _GridUtil.InitColumnUltraGrid(grid1, "ItemCode",       "품번",       false, GridColDataType_emu.VarChar,    100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "ItemName",       "품명",       false, GridColDataType_emu.VarChar,    150, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "WorkNo",         "작업번호",   false, GridColDataType_emu.VarChar,    130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "WorkQty",        "작업수량",   false, GridColDataType_emu.VarChar,    130, 100, Infragistics.Win.HAlign.Right, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "WorkStatus",     "작업상태",   false, GridColDataType_emu.VarChar,    130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);                        
+            _GridUtil.InitColumnUltraGrid(grid1, "InDate",         "투입일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _GridUtil.InitColumnUltraGrid(grid1, "OutDate",        "작업일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);            
  
               
             #endregion
@@ -149,13 +158,17 @@ namespace SAMMI.PP
 
        #endregion
 
-        private void grid1_InitializeRow_1(object sender, InitializeRowEventArgs e)
+        private void grid1_InitializeRow(object sender, InitializeRowEventArgs e)
         {
-            //if (e.Row.Cells["ItemName"].Value.ToString() == "품목계")
-            //    e.Row.Appearance.BackColor = Color.LightCyan;
-            //else if (e.Row.Cells["WorkCenterName"].Value.ToString() == "작업장계")
-            //    e.Row.Appearance.BackColor = Color.LightBlue;
-
+            if (e.Row.Cells["WorkStatus"].Value.ToString() == "완료")
+            {
+                e.Row.Cells["WorkStatus"].Appearance.BackColor = Color.Lime;
+                e.Row.Cells["WorkStatus"].Appearance.ForeColor = Color.FromArgb(70, 70, 70);
+            }
+            else
+            {
+                e.Row.Cells["WorkStatus"].Appearance.BackColor = Color.OrangeRed;                
+            }
         }
 
   
