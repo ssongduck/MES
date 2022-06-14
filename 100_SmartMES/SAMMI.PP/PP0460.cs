@@ -30,6 +30,8 @@ using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraGrid;
 using DevExpress.Data;
+using DevExpress.XtraPrinting;
+using DevExpress.Export;
 
 namespace SAMMI.PP
 {
@@ -271,6 +273,23 @@ namespace SAMMI.PP
                     e.Appearance.BackColor = Color.FromArgb(255, 192, 192);
                 }
             }
+        }
+
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            ExportToExcel();
+        }
+
+        /// <summary>
+        /// Export To Excel
+        /// </summary>
+        private void ExportToExcel()
+        {
+            XlsxExportOptionsEx xlsxOptions = new XlsxExportOptionsEx();
+            xlsxOptions.ExportType = DevExpress.Export.ExportType.WYSIWYG;
+            string path = "주조조건_" + DateTime.Now.ToString("YYYY-MM-DD") + ".xlsx";
+            gridControl1.ExportToXlsx(path);
+            Process.Start(path);
         }
     }
 }
