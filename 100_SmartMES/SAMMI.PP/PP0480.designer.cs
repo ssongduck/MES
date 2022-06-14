@@ -51,6 +51,7 @@
             Infragistics.Win.Appearance appearance15 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance16 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PP0480));
             this.sLabel1 = new SAMMI.Control.SLabel();
             this.sLabel11 = new SAMMI.Control.SLabel();
             this.deEdate = new Infragistics.Win.UltraWinSchedule.UltraCalendarCombo();
@@ -65,6 +66,7 @@
             this.tlpMain = new System.Windows.Forms.TableLayoutPanel();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.btnDownload = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gbxHeader)).BeginInit();
             this.gbxHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gbxBody)).BeginInit();
@@ -85,6 +87,7 @@
             this.gbxHeader.ContentPadding.Left = 2;
             this.gbxHeader.ContentPadding.Right = 2;
             this.gbxHeader.ContentPadding.Top = 4;
+            this.gbxHeader.Controls.Add(this.btnDownload);
             this.gbxHeader.Controls.Add(this.txtWorkCenterName);
             this.gbxHeader.Controls.Add(this.txtWorkCenterCode);
             this.gbxHeader.Controls.Add(this.lblWorkCenterCode);
@@ -344,6 +347,18 @@
             this.gridView2.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gridView2_RowCellStyle);
             this.gridView2.RowStyle += new DevExpress.XtraGrid.Views.Grid.RowStyleEventHandler(this.gridView2_RowStyle);
             // 
+            // btnDownload
+            // 
+            this.btnDownload.Appearance.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownload.Appearance.Options.UseFont = true;
+            this.btnDownload.Image = ((System.Drawing.Image)(resources.GetObject("btnDownload.Image")));
+            this.btnDownload.Location = new System.Drawing.Point(868, 12);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(149, 37);
+            this.btnDownload.TabIndex = 577;
+            this.btnDownload.Text = "엑셀 내려받기\r\n";
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
+            // 
             // PP0480
             // 
             this.ClientSize = new System.Drawing.Size(1281, 778);
@@ -381,5 +396,6 @@
         private System.Windows.Forms.TableLayoutPanel tlpMain;
         private DevExpress.XtraGrid.GridControl gridControl2;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraEditors.SimpleButton btnDownload;
     }
 }

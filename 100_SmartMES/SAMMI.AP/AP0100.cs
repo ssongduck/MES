@@ -50,8 +50,6 @@ namespace SAMMI.AP
         string PlantCode = string.Empty;
         #endregion
 
-        //커밋 테스트
-
         #region < CONSTRUCTOR >
 
         public AP0100()

@@ -17,6 +17,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 using SAMMI.PopUp;
 using SAMMI.PopManager;
 using Infragistics.Win.UltraWinGrid;
@@ -25,11 +26,15 @@ using SAMMI.Common;
 using SAMMI.Windows.Forms;
 using System.Diagnostics;
 
+
 using DevExpress.XtraCharts;
 using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraGrid;
 using DevExpress.Data;
+using DevExpress.Export;
+using DevExpress.XtraPrinting;
+
 
 namespace SAMMI.PP
 {
@@ -71,6 +76,7 @@ namespace SAMMI.PP
             InitializeGridControl();
             AttachEventHandlers();
         }        
+
         #region Event
 
         /// <summary>
@@ -83,11 +89,19 @@ namespace SAMMI.PP
             DetachEventHandlers();
         }
 
+        /// <summary>
+        /// Excel Button Event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            ExportToExcel();
+        }
+
         #endregion
 
         #region Method
-
-
 
         /// <summary>
         /// Initialize control
@@ -250,21 +264,19 @@ namespace SAMMI.PP
             return;
         }
 
-        #endregion
-
         private void GridView1_RowCellStyle(object sender, RowCellStyleEventArgs e)
         {
             if (e.Column.FieldName == "runRate")
             {
-                int irunRate = e.CellValue == DBNull.Value ? 0 :  Convert.ToInt32(e.CellValue);
+                int irunRate = e.CellValue == DBNull.Value ? 0 : Convert.ToInt32(e.CellValue);
 
                 if (irunRate > 79)
                 {
-                    e.Appearance.BackColor = Color.PowderBlue;                    
+                    e.Appearance.BackColor = Color.PowderBlue;
                 }
                 else if (irunRate > 49 && irunRate < 80)
                 {
-                    e.Appearance.BackColor = Color.FromArgb(192, 255, 192);                    
+                    e.Appearance.BackColor = Color.FromArgb(192, 255, 192);
                 }
                 else
                 {
@@ -272,5 +284,20 @@ namespace SAMMI.PP
                 }
             }
         }
+
+        /// <summary>
+        /// Export To Excel
+        /// </summary>
+        private void ExportToExcel()
+        {
+            XlsxExportOptionsEx xlsxOptions = new XlsxExportOptionsEx();
+            xlsxOptions.ExportType = DevExpress.Export.ExportType.WYSIWYG;
+            string path = "주조조건_" + DateTime.Now.ToString("YYYY-MM-DD") + ".xlsx";
+            gridControl1.ExportToXlsx(path);
+            Process.Start(path);
+        }
+
+        #endregion
+
     }
 }

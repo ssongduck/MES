@@ -51,6 +51,7 @@
             Infragistics.Win.Appearance appearance15 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance16 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PP0450));
             this.sLabel1 = new SAMMI.Control.SLabel();
             this.sLabel11 = new SAMMI.Control.SLabel();
             this.deEdate = new Infragistics.Win.UltraWinSchedule.UltraCalendarCombo();
@@ -62,6 +63,7 @@
             this.txtWorkCenterName = new System.Windows.Forms.TextBox();
             this.txtWorkCenterCode = new System.Windows.Forms.TextBox();
             this.lblWorkCenterCode = new SAMMI.Control.SLabel();
+            this.btnDownload = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gbxHeader)).BeginInit();
             this.gbxHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gbxBody)).BeginInit();
@@ -79,6 +81,7 @@
             this.gbxHeader.ContentPadding.Left = 2;
             this.gbxHeader.ContentPadding.Right = 2;
             this.gbxHeader.ContentPadding.Top = 4;
+            this.gbxHeader.Controls.Add(this.btnDownload);
             this.gbxHeader.Controls.Add(this.txtWorkCenterName);
             this.gbxHeader.Controls.Add(this.txtWorkCenterCode);
             this.gbxHeader.Controls.Add(this.lblWorkCenterCode);
@@ -296,6 +299,18 @@
             this.lblWorkCenterCode.TabIndex = 572;
             this.lblWorkCenterCode.Text = "작업장";
             // 
+            // btnDownload
+            // 
+            this.btnDownload.Appearance.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownload.Appearance.Options.UseFont = true;
+            this.btnDownload.Image = ((System.Drawing.Image)(resources.GetObject("btnDownload.Image")));
+            this.btnDownload.Location = new System.Drawing.Point(877, 12);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(149, 37);
+            this.btnDownload.TabIndex = 577;
+            this.btnDownload.Text = "엑셀 내려받기\r\n";
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
+            // 
             // PP0450
             // 
             this.ClientSize = new System.Drawing.Size(1281, 778);
@@ -327,5 +342,6 @@
         private System.Windows.Forms.TextBox txtWorkCenterName;
         private System.Windows.Forms.TextBox txtWorkCenterCode;
         private Control.SLabel lblWorkCenterCode;
+        private DevExpress.XtraEditors.SimpleButton btnDownload;
     }
 }

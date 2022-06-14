@@ -30,6 +30,8 @@ using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraGrid;
 using DevExpress.Data;
+using DevExpress.Export;
+using DevExpress.XtraPrinting;
 
 namespace SAMMI.PP
 {
@@ -71,6 +73,7 @@ namespace SAMMI.PP
             InitializeGridControl();
             AttachEventHandlers();
         }        
+
         #region Event
 
         /// <summary>
@@ -83,10 +86,18 @@ namespace SAMMI.PP
             DetachEventHandlers();
         }
 
+        /// <summary>
+        /// Excel Button Event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            ExportToExcel();
+        }
         #endregion
 
         #region Method
-
 
 
         /// <summary>
@@ -189,6 +200,7 @@ namespace SAMMI.PP
 
                     gridView1.Columns[i].Caption = dt.Columns[i].ColumnName == "StopType"  ? "대분류"   :
                                                    dt.Columns[i].ColumnName == "StopDesc"  ? "비가동명" :
+                                                   dt.Columns[i].ColumnName == "StopSort"  ? "정렬코드" :
                                                    dt.Columns[i].ColumnName == "StopSum"   ? "합계"     :
                                                    dt.Columns[i].ColumnName == "StopRatio" ? "점유율"   : dt.Columns[i].ColumnName;
 
@@ -230,6 +242,7 @@ namespace SAMMI.PP
                     }
                     gridView1.Columns[i].Visible = true;
                 }
+                gridView1.Columns[1].Visible = false; //정렬코드 숨김
             }
             else
             {
@@ -326,8 +339,19 @@ namespace SAMMI.PP
             return;
         }
 
-        #endregion
+        /// <summary>
+        /// Export To Excel
+        /// </summary>
+        private void ExportToExcel()
+        {
+            XlsxExportOptionsEx xlsxOptions = new XlsxExportOptionsEx();
+            xlsxOptions.ExportType = DevExpress.Export.ExportType.WYSIWYG;
+            string path = "비가동현황_" + DateTime.Now.ToString("YYYY-MM-DD") + ".xlsx";
+            gridControl1.ExportToXlsx(path);
+            Process.Start(path);
+        }
 
+        #endregion
 
     }
 }

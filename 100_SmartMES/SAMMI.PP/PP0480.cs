@@ -30,6 +30,8 @@ using DevExpress.XtraGrid.Views.Grid;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraGrid;
 using DevExpress.Data;
+using DevExpress.Export;
+using DevExpress.XtraPrinting;
 
 namespace SAMMI.PP
 {
@@ -82,6 +84,16 @@ namespace SAMMI.PP
         private void PP0480_Disposed(object sender, EventArgs e)
         {
             DetachEventHandlers();
+        }
+
+        /// <summary>
+        /// Excel Button Event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            ExportToExcel();
         }
 
         #endregion
@@ -538,6 +550,19 @@ namespace SAMMI.PP
             return;
         }
 
+        /// <summary>
+        /// Export To Excel
+        /// </summary>
+        private void ExportToExcel()
+        {
+            XlsxExportOptionsEx xlsxOptions = new XlsxExportOptionsEx();
+            xlsxOptions.ExportType = DevExpress.Export.ExportType.WYSIWYG;
+            string path = "가동율현황_" + DateTime.Now.ToString("YYYY-MM-DD") + ".xlsx";
+            gridControl1.ExportToXlsx(path);
+            Process.Start(path);
+        }
+
         #endregion
+
     }
 }
