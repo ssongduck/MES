@@ -66,6 +66,7 @@
             this.bandedGridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumn113 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -181,7 +182,7 @@
             this.txtItemCode = new System.Windows.Forms.TextBox();
             this.txtItemName = new System.Windows.Forms.TextBox();
             this.lblItemCode = new SAMMI.Control.SLabel();
-            this.gridColumn113 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.bandedGridColumn4 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand5 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
@@ -283,6 +284,7 @@
             this.gridBand98 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand99 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand100 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand150 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand101 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand102 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand103 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
@@ -564,6 +566,7 @@
             this.gridBand89,
             this.gridBand93,
             this.gridBand97,
+            this.gridBand150,
             this.gridBand101,
             this.gridBand105,
             this.gridBand109,
@@ -657,6 +660,7 @@
             this.gridColumn74,
             this.gridColumn75,
             this.gridColumn76,
+            this.bandedGridColumn4,
             this.gridColumn77,
             this.gridColumn78,
             this.gridColumn79,
@@ -693,6 +697,7 @@
             this.gridColumn110,
             this.gridColumn111,
             this.gridColumn112});
+            this.GridView1.CustomizationFormBounds = new System.Drawing.Rectangle(1109, 722, 222, 227);
             this.GridView1.GridControl = this.gridControl1;
             this.GridView1.HorzScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Always;
             this.GridView1.Name = "GridView1";
@@ -795,6 +800,15 @@
             this.gridColumn5.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.gridColumn5.Visible = true;
             this.gridColumn5.Width = 40;
+            // 
+            // gridColumn113
+            // 
+            this.gridColumn113.Caption = "입력 C/T";
+            this.gridColumn113.FieldName = "RealcycleTime";
+            this.gridColumn113.Name = "gridColumn113";
+            this.gridColumn113.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.gridColumn113.Visible = true;
+            this.gridColumn113.Width = 52;
             // 
             // gridColumn6
             // 
@@ -2385,12 +2399,14 @@
             this.lblItemCode.TabIndex = 575;
             this.lblItemCode.Text = "품목";
             // 
-            // gridColumn113
+            // bandedGridColumn4
             // 
-            this.gridColumn113.Caption = "실 C/T";
-            this.gridColumn113.Name = "gridColumn113";
-            this.gridColumn113.Visible = true;
-            this.gridColumn113.Width = 43;
+            this.bandedGridColumn4.Caption = "JET-압력";
+            this.bandedGridColumn4.FieldName = "107";
+            this.bandedGridColumn4.Name = "bandedGridColumn4";
+            this.bandedGridColumn4.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.bandedGridColumn4.Visible = true;
+            this.bandedGridColumn4.Width = 54;
             // 
             // gridBand2
             // 
@@ -2476,7 +2492,7 @@
             this.gridBand13});
             this.gridBand14.Name = "gridBand14";
             this.gridBand14.VisibleIndex = 5;
-            this.gridBand14.Width = 297;
+            this.gridBand14.Width = 306;
             // 
             // gridBand8
             // 
@@ -2493,11 +2509,11 @@
             // 
             // gridBand149
             // 
-            this.gridBand149.Caption = "실 C/T";
+            this.gridBand149.Caption = "입력 C/T";
             this.gridBand149.Columns.Add(this.gridColumn113);
             this.gridBand149.Name = "gridBand149";
             this.gridBand149.VisibleIndex = 1;
-            this.gridBand149.Width = 43;
+            this.gridBand149.Width = 52;
             // 
             // gridBand10
             // 
@@ -3768,6 +3784,14 @@
             this.gridBand100.VisibleIndex = 2;
             this.gridBand100.Width = 62;
             // 
+            // gridBand150
+            // 
+            this.gridBand150.Caption = "JET-압력";
+            this.gridBand150.Columns.Add(this.bandedGridColumn4);
+            this.gridBand150.Name = "gridBand150";
+            this.gridBand150.VisibleIndex = 35;
+            this.gridBand150.Width = 54;
+            // 
             // gridBand101
             // 
             this.gridBand101.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3781,7 +3805,7 @@
             this.gridBand103,
             this.gridBand104});
             this.gridBand101.Name = "gridBand101";
-            this.gridBand101.VisibleIndex = 35;
+            this.gridBand101.VisibleIndex = 36;
             this.gridBand101.Width = 171;
             // 
             // gridBand102
@@ -3836,7 +3860,7 @@
             this.gridBand107,
             this.gridBand108});
             this.gridBand105.Name = "gridBand105";
-            this.gridBand105.VisibleIndex = 36;
+            this.gridBand105.VisibleIndex = 37;
             this.gridBand105.Width = 171;
             // 
             // gridBand106
@@ -3891,7 +3915,7 @@
             this.gridBand111,
             this.gridBand112});
             this.gridBand109.Name = "gridBand109";
-            this.gridBand109.VisibleIndex = 37;
+            this.gridBand109.VisibleIndex = 38;
             this.gridBand109.Width = 171;
             // 
             // gridBand110
@@ -3946,7 +3970,7 @@
             this.gridBand115,
             this.gridBand116});
             this.gridBand113.Name = "gridBand113";
-            this.gridBand113.VisibleIndex = 38;
+            this.gridBand113.VisibleIndex = 39;
             this.gridBand113.Width = 171;
             // 
             // gridBand114
@@ -4001,7 +4025,7 @@
             this.gridBand119,
             this.gridBand120});
             this.gridBand117.Name = "gridBand117";
-            this.gridBand117.VisibleIndex = 39;
+            this.gridBand117.VisibleIndex = 40;
             this.gridBand117.Width = 171;
             // 
             // gridBand118
@@ -4056,7 +4080,7 @@
             this.gridBand123,
             this.gridBand124});
             this.gridBand121.Name = "gridBand121";
-            this.gridBand121.VisibleIndex = 40;
+            this.gridBand121.VisibleIndex = 41;
             this.gridBand121.Width = 171;
             // 
             // gridBand122
@@ -4111,7 +4135,7 @@
             this.gridBand127,
             this.gridBand128});
             this.gridBand125.Name = "gridBand125";
-            this.gridBand125.VisibleIndex = 41;
+            this.gridBand125.VisibleIndex = 42;
             this.gridBand125.Width = 162;
             // 
             // gridBand126
@@ -4166,7 +4190,7 @@
             this.gridBand131,
             this.gridBand132});
             this.gridBand129.Name = "gridBand129";
-            this.gridBand129.VisibleIndex = 42;
+            this.gridBand129.VisibleIndex = 43;
             this.gridBand129.Width = 162;
             // 
             // gridBand130
@@ -4221,7 +4245,7 @@
             this.gridBand135,
             this.gridBand136});
             this.gridBand133.Name = "gridBand133";
-            this.gridBand133.VisibleIndex = 43;
+            this.gridBand133.VisibleIndex = 44;
             this.gridBand133.Width = 162;
             // 
             // gridBand134
@@ -4276,7 +4300,7 @@
             this.gridBand139,
             this.gridBand140});
             this.gridBand137.Name = "gridBand137";
-            this.gridBand137.VisibleIndex = 44;
+            this.gridBand137.VisibleIndex = 45;
             this.gridBand137.Width = 162;
             // 
             // gridBand138
@@ -4331,7 +4355,7 @@
             this.gridBand143,
             this.gridBand144});
             this.gridBand141.Name = "gridBand141";
-            this.gridBand141.VisibleIndex = 45;
+            this.gridBand141.VisibleIndex = 46;
             this.gridBand141.Width = 162;
             // 
             // gridBand142
@@ -4386,7 +4410,7 @@
             this.gridBand147,
             this.gridBand148});
             this.gridBand145.Name = "gridBand145";
-            this.gridBand145.VisibleIndex = 46;
+            this.gridBand145.VisibleIndex = 47;
             this.gridBand145.Width = 162;
             // 
             // gridBand146
@@ -4577,6 +4601,7 @@
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn2;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn1;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn3;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn113;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand2;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand5;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand7;
@@ -4585,7 +4610,6 @@
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand14;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand8;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand149;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn113;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand10;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand11;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand12;
@@ -4679,6 +4703,8 @@
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand98;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand99;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand100;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand150;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn4;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand101;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand102;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand103;

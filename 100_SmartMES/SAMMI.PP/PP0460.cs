@@ -160,7 +160,7 @@ namespace SAMMI.PP
                 param[3] = helper.CreateParameter("@AS_SDATE",          sdate, SqlDbType.VarChar, ParameterDirection.Input);
                 param[4] = helper.CreateParameter("@AS_EDATE",          edate, SqlDbType.VarChar, ParameterDirection.Input);
 
-                _dt = helper.FillTable("USP_PP0460_S1", CommandType.StoredProcedure, param);                
+                _dt = helper.FillTable("USP_PP0460_S1_TEST", CommandType.StoredProcedure, param);                
 
                 gridControl1.DataSource = _dt;                
 
