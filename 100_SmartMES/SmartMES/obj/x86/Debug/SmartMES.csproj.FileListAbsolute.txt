@@ -28,3 +28,8 @@ D:\02.SK_SVN#2\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES
 D:\02.SK_SVN#2\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.exe.licenses
 D:\02.SK_SVN#2\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.exe
 D:\02.SK_SVN#2\02.SK_Sources\02.MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.pdb
+D:\SourceTree\MES\100_SmartMES\SmartMES\bin\Debug\SmartMES.exe.config
+D:\SourceTree\MES\100_SmartMES\SmartMES\obj\x86\Debug\Interop.SLOAGENTLib.dll
+D:\SourceTree\MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.csproj.ResolveComReference.cache
+D:\SourceTree\MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.exe
+D:\SourceTree\MES\100_SmartMES\SmartMES\obj\x86\Debug\SmartMES.pdb
