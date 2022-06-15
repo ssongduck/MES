@@ -143,10 +143,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PP0490.cs" />
-    <Compile Include="PP0490.designer.cs">
-      <DependentUpon>PP0490.cs</DependentUpon>
-    </Compile>
     <Compile Include="PP8000.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -455,9 +451,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="PP0490.resx">
-      <DependentUpon>PP0490.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PP8000.resx">
       <DependentUpon>PP8000.cs</DependentUpon>
     </EmbeddedResource>
