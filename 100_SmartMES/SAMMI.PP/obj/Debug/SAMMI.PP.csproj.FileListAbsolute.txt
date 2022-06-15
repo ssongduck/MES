@@ -331,6 +331,7 @@ D:\SourceTree\MES\100_SmartMES\SAMMI.PP\bin\Debug\ru\DevExpress.XtraPrinting.v16
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.csprojResolveAssemblyReference.cache
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\Interop.Microsoft.Office.Core.dll
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.csproj.ResolveComReference.cache
+D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.PP0490.resources
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.PP8000.resources
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.PP0200.resources
 D:\SourceTree\MES\100_SmartMES\SAMMI.PP\obj\Debug\SAMMI.PP.PP0300.resources
