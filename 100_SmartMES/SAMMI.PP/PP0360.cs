@@ -146,7 +146,7 @@ namespace SAMMI.PP
             _GridUtil.InitColumnUltraGrid(grid1, "WorkQty",        "작업수량",   false, GridColDataType_emu.VarChar,    130, 100, Infragistics.Win.HAlign.Right, true, false, null, null, null, null, null);
             _GridUtil.InitColumnUltraGrid(grid1, "WorkStatus",     "작업상태",   false, GridColDataType_emu.VarChar,    130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);                        
             _GridUtil.InitColumnUltraGrid(grid1, "InDate",         "투입일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
-            _GridUtil.InitColumnUltraGrid(grid1, "OutDate",        "작업일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);            
+            _GridUtil.InitColumnUltraGrid(grid1, "OutDate",        "완료일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);            
  
               
             #endregion

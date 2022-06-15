@@ -55,8 +55,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PP0330));
             Infragistics.Win.Appearance appearance38 = new Infragistics.Win.Appearance();
             Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("dTable1", -1);
-            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn1 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("WorkerID");
-            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn2 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("WorkerName");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn5 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("WorkerID");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn6 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("WorkerName");
             Infragistics.Win.Appearance appearance39 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance40 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance41 = new Infragistics.Win.Appearance();
@@ -89,8 +89,8 @@
             Infragistics.Win.Appearance appearance65 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance66 = new Infragistics.Win.Appearance();
             Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand3 = new Infragistics.Win.UltraWinGrid.UltraGridBand("dTable1", -1);
-            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn3 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("LineCode");
-            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn4 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("LineName");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn7 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("LineCode");
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn8 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("LineName");
             Infragistics.Win.Appearance appearance67 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance68 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance69 = new Infragistics.Win.Appearance();
@@ -568,11 +568,11 @@
             appearance38.BorderColor = System.Drawing.SystemColors.InactiveCaption;
             this.cboManager.DisplayLayout.Appearance = appearance38;
             this.cboManager.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ExtendLastColumn;
-            ultraGridColumn1.Header.VisiblePosition = 0;
-            ultraGridColumn2.Header.VisiblePosition = 1;
+            ultraGridColumn5.Header.VisiblePosition = 0;
+            ultraGridColumn6.Header.VisiblePosition = 1;
             ultraGridBand1.Columns.AddRange(new object[] {
-            ultraGridColumn1,
-            ultraGridColumn2});
+            ultraGridColumn5,
+            ultraGridColumn6});
             this.cboManager.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
             this.cboManager.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             this.cboManager.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
@@ -747,11 +747,11 @@
             appearance66.BorderColor = System.Drawing.SystemColors.InactiveCaption;
             this.cboLineCode.DisplayLayout.Appearance = appearance66;
             this.cboLineCode.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ExtendLastColumn;
-            ultraGridColumn3.Header.VisiblePosition = 0;
-            ultraGridColumn4.Header.VisiblePosition = 1;
+            ultraGridColumn7.Header.VisiblePosition = 0;
+            ultraGridColumn8.Header.VisiblePosition = 1;
             ultraGridBand3.Columns.AddRange(new object[] {
-            ultraGridColumn3,
-            ultraGridColumn4});
+            ultraGridColumn7,
+            ultraGridColumn8});
             this.cboLineCode.DisplayLayout.BandsSerializer.Add(ultraGridBand3);
             this.cboLineCode.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
             this.cboLineCode.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;

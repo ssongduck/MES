@@ -937,7 +937,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1304, 746);
             this.Name = "PP0360";
-            this.Text = "생산 현황(사상)";
+            this.Text = "생산 현황(함침)";
             this.Load += new System.EventHandler(this.PP0360_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gbxHeader)).EndInit();
             this.gbxHeader.ResumeLayout(false);
