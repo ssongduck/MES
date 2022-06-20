@@ -176,101 +176,49 @@
             this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
-            this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand3 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand6 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn4 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn5 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand8 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn6 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand9 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn7 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand10 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn8 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand11 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn9 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand12 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn10 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand13 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn11 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand14 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn12 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand15 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn13 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand16 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn14 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand17 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand18 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn15 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand19 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn16 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand20 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand23 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn17 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand27 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn18 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand30 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn19 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand31 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn20 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand32 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand33 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn21 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand34 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn22 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand35 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn83 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand36 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn84 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand37 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn85 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand38 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand39 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand45 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.bandedGridColumn123 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn89 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand46 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn90 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand47 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn91 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand40 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand41 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn92 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand42 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn93 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand43 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn94 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand44 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand48 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn95 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand49 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn97 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand50 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn96 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand55 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand52 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn98 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand53 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn100 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand54 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn99 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand51 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand56 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn101 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand57 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn103 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand58 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn102 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand59 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand60 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn104 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand61 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn106 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand62 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn105 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn60 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.labelControl23 = new DevExpress.XtraEditors.LabelControl();
@@ -416,6 +364,60 @@
             this.btnDownload = new DevExpress.XtraEditors.SimpleButton();
             this.btnPrev = new DevExpress.XtraEditors.SimpleButton();
             this.btnNext = new DevExpress.XtraEditors.SimpleButton();
+            this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand3 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand6 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand8 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand9 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand10 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand11 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand12 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand13 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand14 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand15 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand16 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand17 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand18 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand19 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand20 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand23 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand27 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand30 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand31 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand32 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand33 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand34 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand35 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand36 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand37 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand38 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand164 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand39 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand45 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand46 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand47 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand40 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand41 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand42 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand43 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand44 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand48 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand49 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand50 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand55 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand52 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand53 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand54 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand51 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand56 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand57 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand58 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand59 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand60 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand61 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand62 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             ((System.ComponentModel.ISupportInitialize)(this.gbxHeader)).BeginInit();
             this.gbxHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gbxBody)).BeginInit();
@@ -590,7 +592,7 @@
             this.cboPlantCode_H.ShowDefaultValue = false;
             this.cboPlantCode_H.Size = new System.Drawing.Size(119, 24);
             this.cboPlantCode_H.TabIndex = 565;
-            this.cboPlantCode_H.Text = "ALL";            
+            this.cboPlantCode_H.Text = "ALL";
             // 
             // tpMain
             // 
@@ -2121,7 +2123,7 @@
             // labelControl7
             // 
             this.labelControl7.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(248)))));
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("KoPubWorld바탕체 Light", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.labelControl7.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.labelControl7.Appearance.Options.UseBackColor = true;
             this.labelControl7.Appearance.Options.UseFont = true;
@@ -2183,7 +2185,7 @@
             // lblLotCount
             // 
             this.lblLotCount.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblLotCount.Appearance.Font = new System.Drawing.Font("KoPubWorld바탕체 Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblLotCount.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblLotCount.Appearance.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblLotCount.Appearance.Options.UseFont = true;
             this.lblLotCount.Appearance.Options.UseForeColor = true;
@@ -2448,6 +2450,7 @@
             this.bandedGridColumn83,
             this.bandedGridColumn84,
             this.bandedGridColumn85,
+            this.bandedGridColumn123,
             this.bandedGridColumn89,
             this.bandedGridColumn90,
             this.bandedGridColumn91,
@@ -2476,19 +2479,6 @@
             this.gridView1.VertScrollVisibility = DevExpress.XtraGrid.Views.Base.ScrollVisibility.Never;
             this.gridView1.MouseWheel += new System.Windows.Forms.MouseEventHandler(this.gridView1_MouseWheel);
             // 
-            // gridBand1
-            // 
-            this.gridBand1.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand1.AppearanceHeader.Options.UseFont = true;
-            this.gridBand1.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand1.Columns.Add(this.bandedGridColumn1);
-            this.gridBand1.Name = "gridBand1";
-            this.gridBand1.RowCount = 2;
-            this.gridBand1.VisibleIndex = 0;
-            this.gridBand1.Width = 30;
-            // 
             // bandedGridColumn1
             // 
             this.bandedGridColumn1.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2501,19 +2491,6 @@
             this.bandedGridColumn1.Name = "bandedGridColumn1";
             this.bandedGridColumn1.Visible = true;
             this.bandedGridColumn1.Width = 30;
-            // 
-            // gridBand2
-            // 
-            this.gridBand2.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand2.AppearanceHeader.Options.UseFont = true;
-            this.gridBand2.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand2.Columns.Add(this.bandedGridColumn2);
-            this.gridBand2.Name = "gridBand2";
-            this.gridBand2.RowCount = 2;
-            this.gridBand2.VisibleIndex = 1;
-            this.gridBand2.Width = 30;
             // 
             // bandedGridColumn2
             // 
@@ -2528,19 +2505,6 @@
             this.bandedGridColumn2.Visible = true;
             this.bandedGridColumn2.Width = 30;
             // 
-            // gridBand3
-            // 
-            this.gridBand3.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand3.AppearanceHeader.Options.UseFont = true;
-            this.gridBand3.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand3.Columns.Add(this.bandedGridColumn3);
-            this.gridBand3.Name = "gridBand3";
-            this.gridBand3.RowCount = 2;
-            this.gridBand3.VisibleIndex = 2;
-            this.gridBand3.Width = 30;
-            // 
             // bandedGridColumn3
             // 
             this.bandedGridColumn3.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2553,19 +2517,6 @@
             this.bandedGridColumn3.Name = "bandedGridColumn3";
             this.bandedGridColumn3.Visible = true;
             this.bandedGridColumn3.Width = 30;
-            // 
-            // gridBand6
-            // 
-            this.gridBand6.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand6.AppearanceHeader.Options.UseFont = true;
-            this.gridBand6.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand6.Columns.Add(this.bandedGridColumn4);
-            this.gridBand6.Name = "gridBand6";
-            this.gridBand6.RowCount = 2;
-            this.gridBand6.VisibleIndex = 3;
-            this.gridBand6.Width = 30;
             // 
             // bandedGridColumn4
             // 
@@ -2580,19 +2531,6 @@
             this.bandedGridColumn4.Visible = true;
             this.bandedGridColumn4.Width = 30;
             // 
-            // gridBand7
-            // 
-            this.gridBand7.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand7.AppearanceHeader.Options.UseFont = true;
-            this.gridBand7.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand7.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand7.Columns.Add(this.bandedGridColumn5);
-            this.gridBand7.Name = "gridBand7";
-            this.gridBand7.RowCount = 2;
-            this.gridBand7.VisibleIndex = 4;
-            this.gridBand7.Width = 30;
-            // 
             // bandedGridColumn5
             // 
             this.bandedGridColumn5.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2605,19 +2543,6 @@
             this.bandedGridColumn5.Name = "bandedGridColumn5";
             this.bandedGridColumn5.Visible = true;
             this.bandedGridColumn5.Width = 30;
-            // 
-            // gridBand8
-            // 
-            this.gridBand8.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand8.AppearanceHeader.Options.UseFont = true;
-            this.gridBand8.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand8.Columns.Add(this.bandedGridColumn6);
-            this.gridBand8.Name = "gridBand8";
-            this.gridBand8.RowCount = 2;
-            this.gridBand8.VisibleIndex = 5;
-            this.gridBand8.Width = 30;
             // 
             // bandedGridColumn6
             // 
@@ -2632,19 +2557,6 @@
             this.bandedGridColumn6.Visible = true;
             this.bandedGridColumn6.Width = 30;
             // 
-            // gridBand9
-            // 
-            this.gridBand9.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand9.AppearanceHeader.Options.UseFont = true;
-            this.gridBand9.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand9.Columns.Add(this.bandedGridColumn7);
-            this.gridBand9.Name = "gridBand9";
-            this.gridBand9.RowCount = 2;
-            this.gridBand9.VisibleIndex = 6;
-            this.gridBand9.Width = 30;
-            // 
             // bandedGridColumn7
             // 
             this.bandedGridColumn7.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2657,19 +2569,6 @@
             this.bandedGridColumn7.Name = "bandedGridColumn7";
             this.bandedGridColumn7.Visible = true;
             this.bandedGridColumn7.Width = 30;
-            // 
-            // gridBand10
-            // 
-            this.gridBand10.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand10.AppearanceHeader.Options.UseFont = true;
-            this.gridBand10.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand10.Columns.Add(this.bandedGridColumn8);
-            this.gridBand10.Name = "gridBand10";
-            this.gridBand10.RowCount = 2;
-            this.gridBand10.VisibleIndex = 7;
-            this.gridBand10.Width = 30;
             // 
             // bandedGridColumn8
             // 
@@ -2684,19 +2583,6 @@
             this.bandedGridColumn8.Visible = true;
             this.bandedGridColumn8.Width = 30;
             // 
-            // gridBand11
-            // 
-            this.gridBand11.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand11.AppearanceHeader.Options.UseFont = true;
-            this.gridBand11.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand11.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand11.Columns.Add(this.bandedGridColumn9);
-            this.gridBand11.Name = "gridBand11";
-            this.gridBand11.RowCount = 2;
-            this.gridBand11.VisibleIndex = 8;
-            this.gridBand11.Width = 30;
-            // 
             // bandedGridColumn9
             // 
             this.bandedGridColumn9.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2709,19 +2595,6 @@
             this.bandedGridColumn9.Name = "bandedGridColumn9";
             this.bandedGridColumn9.Visible = true;
             this.bandedGridColumn9.Width = 30;
-            // 
-            // gridBand12
-            // 
-            this.gridBand12.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand12.AppearanceHeader.Options.UseFont = true;
-            this.gridBand12.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand12.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand12.Columns.Add(this.bandedGridColumn10);
-            this.gridBand12.Name = "gridBand12";
-            this.gridBand12.RowCount = 2;
-            this.gridBand12.VisibleIndex = 9;
-            this.gridBand12.Width = 30;
             // 
             // bandedGridColumn10
             // 
@@ -2736,19 +2609,6 @@
             this.bandedGridColumn10.Visible = true;
             this.bandedGridColumn10.Width = 30;
             // 
-            // gridBand13
-            // 
-            this.gridBand13.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand13.AppearanceHeader.Options.UseFont = true;
-            this.gridBand13.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand13.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand13.Columns.Add(this.bandedGridColumn11);
-            this.gridBand13.Name = "gridBand13";
-            this.gridBand13.RowCount = 2;
-            this.gridBand13.VisibleIndex = 10;
-            this.gridBand13.Width = 30;
-            // 
             // bandedGridColumn11
             // 
             this.bandedGridColumn11.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2761,19 +2621,6 @@
             this.bandedGridColumn11.Name = "bandedGridColumn11";
             this.bandedGridColumn11.Visible = true;
             this.bandedGridColumn11.Width = 30;
-            // 
-            // gridBand14
-            // 
-            this.gridBand14.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand14.AppearanceHeader.Options.UseFont = true;
-            this.gridBand14.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand14.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand14.Columns.Add(this.bandedGridColumn12);
-            this.gridBand14.Name = "gridBand14";
-            this.gridBand14.RowCount = 2;
-            this.gridBand14.VisibleIndex = 11;
-            this.gridBand14.Width = 30;
             // 
             // bandedGridColumn12
             // 
@@ -2788,19 +2635,6 @@
             this.bandedGridColumn12.Visible = true;
             this.bandedGridColumn12.Width = 30;
             // 
-            // gridBand15
-            // 
-            this.gridBand15.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand15.AppearanceHeader.Options.UseFont = true;
-            this.gridBand15.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand15.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand15.Columns.Add(this.bandedGridColumn13);
-            this.gridBand15.Name = "gridBand15";
-            this.gridBand15.RowCount = 2;
-            this.gridBand15.VisibleIndex = 12;
-            this.gridBand15.Width = 30;
-            // 
             // bandedGridColumn13
             // 
             this.bandedGridColumn13.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2813,19 +2647,6 @@
             this.bandedGridColumn13.Name = "bandedGridColumn13";
             this.bandedGridColumn13.Visible = true;
             this.bandedGridColumn13.Width = 30;
-            // 
-            // gridBand16
-            // 
-            this.gridBand16.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand16.AppearanceHeader.Options.UseFont = true;
-            this.gridBand16.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand16.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand16.Columns.Add(this.bandedGridColumn14);
-            this.gridBand16.Name = "gridBand16";
-            this.gridBand16.RowCount = 2;
-            this.gridBand16.VisibleIndex = 13;
-            this.gridBand16.Width = 30;
             // 
             // bandedGridColumn14
             // 
@@ -2840,34 +2661,6 @@
             this.bandedGridColumn14.Visible = true;
             this.bandedGridColumn14.Width = 30;
             // 
-            // gridBand17
-            // 
-            this.gridBand17.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand17.AppearanceHeader.Options.UseFont = true;
-            this.gridBand17.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand17.Caption = "블럭교체";
-            this.gridBand17.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand18,
-            this.gridBand19});
-            this.gridBand17.Name = "gridBand17";
-            this.gridBand17.VisibleIndex = 14;
-            this.gridBand17.Width = 60;
-            // 
-            // gridBand18
-            // 
-            this.gridBand18.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand18.AppearanceHeader.Options.UseFont = true;
-            this.gridBand18.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand18.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand18.Caption = "#1";
-            this.gridBand18.Columns.Add(this.bandedGridColumn15);
-            this.gridBand18.Name = "gridBand18";
-            this.gridBand18.VisibleIndex = 0;
-            this.gridBand18.Width = 30;
-            // 
             // bandedGridColumn15
             // 
             this.bandedGridColumn15.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2880,19 +2673,6 @@
             this.bandedGridColumn15.Name = "bandedGridColumn15";
             this.bandedGridColumn15.Visible = true;
             this.bandedGridColumn15.Width = 30;
-            // 
-            // gridBand19
-            // 
-            this.gridBand19.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand19.AppearanceHeader.Options.UseFont = true;
-            this.gridBand19.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand19.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand19.Caption = "#2";
-            this.gridBand19.Columns.Add(this.bandedGridColumn16);
-            this.gridBand19.Name = "gridBand19";
-            this.gridBand19.VisibleIndex = 1;
-            this.gridBand19.Width = 30;
             // 
             // bandedGridColumn16
             // 
@@ -2907,36 +2687,6 @@
             this.bandedGridColumn16.Visible = true;
             this.bandedGridColumn16.Width = 30;
             // 
-            // gridBand20
-            // 
-            this.gridBand20.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand20.AppearanceHeader.Options.UseFont = true;
-            this.gridBand20.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand20.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand20.Caption = "진공도";
-            this.gridBand20.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand23,
-            this.gridBand27,
-            this.gridBand30,
-            this.gridBand31});
-            this.gridBand20.Name = "gridBand20";
-            this.gridBand20.VisibleIndex = 15;
-            this.gridBand20.Width = 120;
-            // 
-            // gridBand23
-            // 
-            this.gridBand23.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand23.AppearanceHeader.Options.UseFont = true;
-            this.gridBand23.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand23.Caption = "#1";
-            this.gridBand23.Columns.Add(this.bandedGridColumn17);
-            this.gridBand23.Name = "gridBand23";
-            this.gridBand23.VisibleIndex = 0;
-            this.gridBand23.Width = 30;
-            // 
             // bandedGridColumn17
             // 
             this.bandedGridColumn17.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -2949,19 +2699,6 @@
             this.bandedGridColumn17.Name = "bandedGridColumn17";
             this.bandedGridColumn17.Visible = true;
             this.bandedGridColumn17.Width = 30;
-            // 
-            // gridBand27
-            // 
-            this.gridBand27.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand27.AppearanceHeader.Options.UseFont = true;
-            this.gridBand27.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand27.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand27.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand27.Caption = "#2";
-            this.gridBand27.Columns.Add(this.bandedGridColumn18);
-            this.gridBand27.Name = "gridBand27";
-            this.gridBand27.VisibleIndex = 1;
-            this.gridBand27.Width = 30;
             // 
             // bandedGridColumn18
             // 
@@ -2976,19 +2713,6 @@
             this.bandedGridColumn18.Visible = true;
             this.bandedGridColumn18.Width = 30;
             // 
-            // gridBand30
-            // 
-            this.gridBand30.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand30.AppearanceHeader.Options.UseFont = true;
-            this.gridBand30.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand30.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand30.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand30.Caption = "#3";
-            this.gridBand30.Columns.Add(this.bandedGridColumn19);
-            this.gridBand30.Name = "gridBand30";
-            this.gridBand30.VisibleIndex = 2;
-            this.gridBand30.Width = 30;
-            // 
             // bandedGridColumn19
             // 
             this.bandedGridColumn19.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3001,19 +2725,6 @@
             this.bandedGridColumn19.Name = "bandedGridColumn19";
             this.bandedGridColumn19.Visible = true;
             this.bandedGridColumn19.Width = 30;
-            // 
-            // gridBand31
-            // 
-            this.gridBand31.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand31.AppearanceHeader.Options.UseFont = true;
-            this.gridBand31.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand31.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand31.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand31.Caption = "#4";
-            this.gridBand31.Columns.Add(this.bandedGridColumn20);
-            this.gridBand31.Name = "gridBand31";
-            this.gridBand31.VisibleIndex = 3;
-            this.gridBand31.Width = 30;
             // 
             // bandedGridColumn20
             // 
@@ -3028,36 +2739,6 @@
             this.bandedGridColumn20.Visible = true;
             this.bandedGridColumn20.Width = 30;
             // 
-            // gridBand32
-            // 
-            this.gridBand32.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand32.AppearanceHeader.Options.UseFont = true;
-            this.gridBand32.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand32.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand32.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand32.Caption = "온조기 온도";
-            this.gridBand32.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand33,
-            this.gridBand34,
-            this.gridBand35,
-            this.gridBand36});
-            this.gridBand32.Name = "gridBand32";
-            this.gridBand32.VisibleIndex = 16;
-            this.gridBand32.Width = 140;
-            // 
-            // gridBand33
-            // 
-            this.gridBand33.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand33.AppearanceHeader.Options.UseFont = true;
-            this.gridBand33.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand33.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand33.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand33.Caption = "고정1";
-            this.gridBand33.Columns.Add(this.bandedGridColumn21);
-            this.gridBand33.Name = "gridBand33";
-            this.gridBand33.VisibleIndex = 0;
-            this.gridBand33.Width = 35;
-            // 
             // bandedGridColumn21
             // 
             this.bandedGridColumn21.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3069,20 +2750,7 @@
             this.bandedGridColumn21.FieldName = "21";
             this.bandedGridColumn21.Name = "bandedGridColumn21";
             this.bandedGridColumn21.Visible = true;
-            this.bandedGridColumn21.Width = 35;
-            // 
-            // gridBand34
-            // 
-            this.gridBand34.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand34.AppearanceHeader.Options.UseFont = true;
-            this.gridBand34.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand34.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand34.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand34.Caption = "고정2";
-            this.gridBand34.Columns.Add(this.bandedGridColumn22);
-            this.gridBand34.Name = "gridBand34";
-            this.gridBand34.VisibleIndex = 1;
-            this.gridBand34.Width = 35;
+            this.bandedGridColumn21.Width = 42;
             // 
             // bandedGridColumn22
             // 
@@ -3095,20 +2763,7 @@
             this.bandedGridColumn22.FieldName = "22";
             this.bandedGridColumn22.Name = "bandedGridColumn22";
             this.bandedGridColumn22.Visible = true;
-            this.bandedGridColumn22.Width = 35;
-            // 
-            // gridBand35
-            // 
-            this.gridBand35.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand35.AppearanceHeader.Options.UseFont = true;
-            this.gridBand35.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand35.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand35.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand35.Caption = "가동1";
-            this.gridBand35.Columns.Add(this.bandedGridColumn83);
-            this.gridBand35.Name = "gridBand35";
-            this.gridBand35.VisibleIndex = 2;
-            this.gridBand35.Width = 35;
+            this.bandedGridColumn22.Width = 39;
             // 
             // bandedGridColumn83
             // 
@@ -3121,20 +2776,7 @@
             this.bandedGridColumn83.FieldName = "23";
             this.bandedGridColumn83.Name = "bandedGridColumn83";
             this.bandedGridColumn83.Visible = true;
-            this.bandedGridColumn83.Width = 35;
-            // 
-            // gridBand36
-            // 
-            this.gridBand36.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand36.AppearanceHeader.Options.UseFont = true;
-            this.gridBand36.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand36.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand36.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand36.Caption = "가동2";
-            this.gridBand36.Columns.Add(this.bandedGridColumn84);
-            this.gridBand36.Name = "gridBand36";
-            this.gridBand36.VisibleIndex = 3;
-            this.gridBand36.Width = 35;
+            this.bandedGridColumn83.Width = 39;
             // 
             // bandedGridColumn84
             // 
@@ -3147,15 +2789,7 @@
             this.bandedGridColumn84.FieldName = "24";
             this.bandedGridColumn84.Name = "bandedGridColumn84";
             this.bandedGridColumn84.Visible = true;
-            this.bandedGridColumn84.Width = 35;
-            // 
-            // gridBand37
-            // 
-            this.gridBand37.Caption = "C/T";
-            this.gridBand37.Columns.Add(this.bandedGridColumn85);
-            this.gridBand37.Name = "gridBand37";
-            this.gridBand37.VisibleIndex = 17;
-            this.gridBand37.Width = 30;
+            this.bandedGridColumn84.Width = 41;
             // 
             // bandedGridColumn85
             // 
@@ -3170,50 +2804,15 @@
             this.bandedGridColumn85.Visible = true;
             this.bandedGridColumn85.Width = 30;
             // 
-            // gridBand38
+            // bandedGridColumn123
             // 
-            this.gridBand38.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand38.AppearanceHeader.Options.UseFont = true;
-            this.gridBand38.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand38.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand38.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand38.Caption = "JET COOL 타임 (지연 / 냉각 / 에어)";
-            this.gridBand38.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand39,
-            this.gridBand40,
-            this.gridBand44,
-            this.gridBand55,
-            this.gridBand51,
-            this.gridBand59});
-            this.gridBand38.Name = "gridBand38";
-            this.gridBand38.VisibleIndex = 18;
-            this.gridBand38.Width = 540;
-            // 
-            // gridBand39
-            // 
-            this.gridBand39.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand39.AppearanceHeader.Options.UseFont = true;
-            this.gridBand39.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand39.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand39.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand39.Caption = "JET1";
-            this.gridBand39.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand45,
-            this.gridBand46,
-            this.gridBand47});
-            this.gridBand39.Name = "gridBand39";
-            this.gridBand39.VisibleIndex = 0;
-            this.gridBand39.Width = 90;
-            // 
-            // gridBand45
-            // 
-            this.gridBand45.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand45.AppearanceHeader.Options.UseFont = true;
-            this.gridBand45.Caption = "지연";
-            this.gridBand45.Columns.Add(this.bandedGridColumn89);
-            this.gridBand45.Name = "gridBand45";
-            this.gridBand45.VisibleIndex = 0;
-            this.gridBand45.Width = 30;
+            this.bandedGridColumn123.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bandedGridColumn123.AppearanceHeader.Options.UseFont = true;
+            this.bandedGridColumn123.Caption = "JET압력";
+            this.bandedGridColumn123.FieldName = "107";
+            this.bandedGridColumn123.Name = "bandedGridColumn123";
+            this.bandedGridColumn123.Visible = true;
+            this.bandedGridColumn123.Width = 52;
             // 
             // bandedGridColumn89
             // 
@@ -3228,14 +2827,6 @@
             this.bandedGridColumn89.Visible = true;
             this.bandedGridColumn89.Width = 30;
             // 
-            // gridBand46
-            // 
-            this.gridBand46.Caption = "냉각";
-            this.gridBand46.Columns.Add(this.bandedGridColumn90);
-            this.gridBand46.Name = "gridBand46";
-            this.gridBand46.VisibleIndex = 1;
-            this.gridBand46.Width = 30;
-            // 
             // bandedGridColumn90
             // 
             this.bandedGridColumn90.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3248,14 +2839,6 @@
             this.bandedGridColumn90.Name = "bandedGridColumn90";
             this.bandedGridColumn90.Visible = true;
             this.bandedGridColumn90.Width = 30;
-            // 
-            // gridBand47
-            // 
-            this.gridBand47.Caption = "에어";
-            this.gridBand47.Columns.Add(this.bandedGridColumn91);
-            this.gridBand47.Name = "gridBand47";
-            this.gridBand47.VisibleIndex = 2;
-            this.gridBand47.Width = 30;
             // 
             // bandedGridColumn91
             // 
@@ -3270,30 +2853,6 @@
             this.bandedGridColumn91.Visible = true;
             this.bandedGridColumn91.Width = 30;
             // 
-            // gridBand40
-            // 
-            this.gridBand40.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand40.AppearanceHeader.Options.UseFont = true;
-            this.gridBand40.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand40.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand40.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand40.Caption = "JET2";
-            this.gridBand40.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand41,
-            this.gridBand42,
-            this.gridBand43});
-            this.gridBand40.Name = "gridBand40";
-            this.gridBand40.VisibleIndex = 1;
-            this.gridBand40.Width = 90;
-            // 
-            // gridBand41
-            // 
-            this.gridBand41.Caption = "지연";
-            this.gridBand41.Columns.Add(this.bandedGridColumn92);
-            this.gridBand41.Name = "gridBand41";
-            this.gridBand41.VisibleIndex = 0;
-            this.gridBand41.Width = 30;
-            // 
             // bandedGridColumn92
             // 
             this.bandedGridColumn92.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3306,14 +2865,6 @@
             this.bandedGridColumn92.Name = "bandedGridColumn92";
             this.bandedGridColumn92.Visible = true;
             this.bandedGridColumn92.Width = 30;
-            // 
-            // gridBand42
-            // 
-            this.gridBand42.Caption = "냉각";
-            this.gridBand42.Columns.Add(this.bandedGridColumn93);
-            this.gridBand42.Name = "gridBand42";
-            this.gridBand42.VisibleIndex = 1;
-            this.gridBand42.Width = 30;
             // 
             // bandedGridColumn93
             // 
@@ -3328,14 +2879,6 @@
             this.bandedGridColumn93.Visible = true;
             this.bandedGridColumn93.Width = 30;
             // 
-            // gridBand43
-            // 
-            this.gridBand43.Caption = "에어";
-            this.gridBand43.Columns.Add(this.bandedGridColumn94);
-            this.gridBand43.Name = "gridBand43";
-            this.gridBand43.VisibleIndex = 2;
-            this.gridBand43.Width = 30;
-            // 
             // bandedGridColumn94
             // 
             this.bandedGridColumn94.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3348,30 +2891,6 @@
             this.bandedGridColumn94.Name = "bandedGridColumn94";
             this.bandedGridColumn94.Visible = true;
             this.bandedGridColumn94.Width = 30;
-            // 
-            // gridBand44
-            // 
-            this.gridBand44.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand44.AppearanceHeader.Options.UseFont = true;
-            this.gridBand44.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand44.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand44.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand44.Caption = "JET3";
-            this.gridBand44.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand48,
-            this.gridBand49,
-            this.gridBand50});
-            this.gridBand44.Name = "gridBand44";
-            this.gridBand44.VisibleIndex = 2;
-            this.gridBand44.Width = 90;
-            // 
-            // gridBand48
-            // 
-            this.gridBand48.Caption = "지연";
-            this.gridBand48.Columns.Add(this.bandedGridColumn95);
-            this.gridBand48.Name = "gridBand48";
-            this.gridBand48.VisibleIndex = 0;
-            this.gridBand48.Width = 30;
             // 
             // bandedGridColumn95
             // 
@@ -3386,14 +2905,6 @@
             this.bandedGridColumn95.Visible = true;
             this.bandedGridColumn95.Width = 30;
             // 
-            // gridBand49
-            // 
-            this.gridBand49.Caption = "냉각";
-            this.gridBand49.Columns.Add(this.bandedGridColumn97);
-            this.gridBand49.Name = "gridBand49";
-            this.gridBand49.VisibleIndex = 1;
-            this.gridBand49.Width = 30;
-            // 
             // bandedGridColumn97
             // 
             this.bandedGridColumn97.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3406,14 +2917,6 @@
             this.bandedGridColumn97.Name = "bandedGridColumn97";
             this.bandedGridColumn97.Visible = true;
             this.bandedGridColumn97.Width = 30;
-            // 
-            // gridBand50
-            // 
-            this.gridBand50.Caption = "에어";
-            this.gridBand50.Columns.Add(this.bandedGridColumn96);
-            this.gridBand50.Name = "gridBand50";
-            this.gridBand50.VisibleIndex = 2;
-            this.gridBand50.Width = 30;
             // 
             // bandedGridColumn96
             // 
@@ -3428,30 +2931,6 @@
             this.bandedGridColumn96.Visible = true;
             this.bandedGridColumn96.Width = 30;
             // 
-            // gridBand55
-            // 
-            this.gridBand55.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand55.AppearanceHeader.Options.UseFont = true;
-            this.gridBand55.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand55.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand55.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand55.Caption = "JET4";
-            this.gridBand55.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand52,
-            this.gridBand53,
-            this.gridBand54});
-            this.gridBand55.Name = "gridBand55";
-            this.gridBand55.VisibleIndex = 3;
-            this.gridBand55.Width = 90;
-            // 
-            // gridBand52
-            // 
-            this.gridBand52.Caption = "지연";
-            this.gridBand52.Columns.Add(this.bandedGridColumn98);
-            this.gridBand52.Name = "gridBand52";
-            this.gridBand52.VisibleIndex = 0;
-            this.gridBand52.Width = 30;
-            // 
             // bandedGridColumn98
             // 
             this.bandedGridColumn98.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3464,14 +2943,6 @@
             this.bandedGridColumn98.Name = "bandedGridColumn98";
             this.bandedGridColumn98.Visible = true;
             this.bandedGridColumn98.Width = 30;
-            // 
-            // gridBand53
-            // 
-            this.gridBand53.Caption = "냉각";
-            this.gridBand53.Columns.Add(this.bandedGridColumn100);
-            this.gridBand53.Name = "gridBand53";
-            this.gridBand53.VisibleIndex = 1;
-            this.gridBand53.Width = 30;
             // 
             // bandedGridColumn100
             // 
@@ -3486,14 +2957,6 @@
             this.bandedGridColumn100.Visible = true;
             this.bandedGridColumn100.Width = 30;
             // 
-            // gridBand54
-            // 
-            this.gridBand54.Caption = "에어";
-            this.gridBand54.Columns.Add(this.bandedGridColumn99);
-            this.gridBand54.Name = "gridBand54";
-            this.gridBand54.VisibleIndex = 2;
-            this.gridBand54.Width = 30;
-            // 
             // bandedGridColumn99
             // 
             this.bandedGridColumn99.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3506,30 +2969,6 @@
             this.bandedGridColumn99.Name = "bandedGridColumn99";
             this.bandedGridColumn99.Visible = true;
             this.bandedGridColumn99.Width = 30;
-            // 
-            // gridBand51
-            // 
-            this.gridBand51.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand51.AppearanceHeader.Options.UseFont = true;
-            this.gridBand51.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand51.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand51.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand51.Caption = "JET5";
-            this.gridBand51.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand56,
-            this.gridBand57,
-            this.gridBand58});
-            this.gridBand51.Name = "gridBand51";
-            this.gridBand51.VisibleIndex = 4;
-            this.gridBand51.Width = 90;
-            // 
-            // gridBand56
-            // 
-            this.gridBand56.Caption = "지연";
-            this.gridBand56.Columns.Add(this.bandedGridColumn101);
-            this.gridBand56.Name = "gridBand56";
-            this.gridBand56.VisibleIndex = 0;
-            this.gridBand56.Width = 30;
             // 
             // bandedGridColumn101
             // 
@@ -3544,14 +2983,6 @@
             this.bandedGridColumn101.Visible = true;
             this.bandedGridColumn101.Width = 30;
             // 
-            // gridBand57
-            // 
-            this.gridBand57.Caption = "냉각";
-            this.gridBand57.Columns.Add(this.bandedGridColumn103);
-            this.gridBand57.Name = "gridBand57";
-            this.gridBand57.VisibleIndex = 1;
-            this.gridBand57.Width = 30;
-            // 
             // bandedGridColumn103
             // 
             this.bandedGridColumn103.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3564,14 +2995,6 @@
             this.bandedGridColumn103.Name = "bandedGridColumn103";
             this.bandedGridColumn103.Visible = true;
             this.bandedGridColumn103.Width = 30;
-            // 
-            // gridBand58
-            // 
-            this.gridBand58.Caption = "에어";
-            this.gridBand58.Columns.Add(this.bandedGridColumn102);
-            this.gridBand58.Name = "gridBand58";
-            this.gridBand58.VisibleIndex = 2;
-            this.gridBand58.Width = 30;
             // 
             // bandedGridColumn102
             // 
@@ -3586,30 +3009,6 @@
             this.bandedGridColumn102.Visible = true;
             this.bandedGridColumn102.Width = 30;
             // 
-            // gridBand59
-            // 
-            this.gridBand59.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridBand59.AppearanceHeader.Options.UseFont = true;
-            this.gridBand59.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridBand59.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridBand59.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridBand59.Caption = "JET6";
-            this.gridBand59.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand60,
-            this.gridBand61,
-            this.gridBand62});
-            this.gridBand59.Name = "gridBand59";
-            this.gridBand59.VisibleIndex = 5;
-            this.gridBand59.Width = 90;
-            // 
-            // gridBand60
-            // 
-            this.gridBand60.Caption = "지연";
-            this.gridBand60.Columns.Add(this.bandedGridColumn104);
-            this.gridBand60.Name = "gridBand60";
-            this.gridBand60.VisibleIndex = 0;
-            this.gridBand60.Width = 30;
-            // 
             // bandedGridColumn104
             // 
             this.bandedGridColumn104.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3623,14 +3022,6 @@
             this.bandedGridColumn104.Visible = true;
             this.bandedGridColumn104.Width = 30;
             // 
-            // gridBand61
-            // 
-            this.gridBand61.Caption = "냉각";
-            this.gridBand61.Columns.Add(this.bandedGridColumn106);
-            this.gridBand61.Name = "gridBand61";
-            this.gridBand61.VisibleIndex = 1;
-            this.gridBand61.Width = 30;
-            // 
             // bandedGridColumn106
             // 
             this.bandedGridColumn106.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -3643,14 +3034,6 @@
             this.bandedGridColumn106.Name = "bandedGridColumn106";
             this.bandedGridColumn106.Visible = true;
             this.bandedGridColumn106.Width = 30;
-            // 
-            // gridBand62
-            // 
-            this.gridBand62.Caption = "에어";
-            this.gridBand62.Columns.Add(this.bandedGridColumn105);
-            this.gridBand62.Name = "gridBand62";
-            this.gridBand62.VisibleIndex = 2;
-            this.gridBand62.Width = 30;
             // 
             // bandedGridColumn105
             // 
@@ -5878,6 +5261,649 @@
             this.btnNext.Text = "▶";
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // gridBand1
+            // 
+            this.gridBand1.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand1.AppearanceHeader.Options.UseFont = true;
+            this.gridBand1.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand1.Columns.Add(this.bandedGridColumn1);
+            this.gridBand1.Name = "gridBand1";
+            this.gridBand1.RowCount = 2;
+            this.gridBand1.VisibleIndex = 0;
+            this.gridBand1.Width = 30;
+            // 
+            // gridBand2
+            // 
+            this.gridBand2.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand2.AppearanceHeader.Options.UseFont = true;
+            this.gridBand2.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand2.Columns.Add(this.bandedGridColumn2);
+            this.gridBand2.Name = "gridBand2";
+            this.gridBand2.RowCount = 2;
+            this.gridBand2.VisibleIndex = 1;
+            this.gridBand2.Width = 30;
+            // 
+            // gridBand3
+            // 
+            this.gridBand3.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand3.AppearanceHeader.Options.UseFont = true;
+            this.gridBand3.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand3.Columns.Add(this.bandedGridColumn3);
+            this.gridBand3.Name = "gridBand3";
+            this.gridBand3.RowCount = 2;
+            this.gridBand3.VisibleIndex = 2;
+            this.gridBand3.Width = 30;
+            // 
+            // gridBand6
+            // 
+            this.gridBand6.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand6.AppearanceHeader.Options.UseFont = true;
+            this.gridBand6.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand6.Columns.Add(this.bandedGridColumn4);
+            this.gridBand6.Name = "gridBand6";
+            this.gridBand6.RowCount = 2;
+            this.gridBand6.VisibleIndex = 3;
+            this.gridBand6.Width = 30;
+            // 
+            // gridBand7
+            // 
+            this.gridBand7.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand7.AppearanceHeader.Options.UseFont = true;
+            this.gridBand7.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand7.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand7.Columns.Add(this.bandedGridColumn5);
+            this.gridBand7.Name = "gridBand7";
+            this.gridBand7.RowCount = 2;
+            this.gridBand7.VisibleIndex = 4;
+            this.gridBand7.Width = 30;
+            // 
+            // gridBand8
+            // 
+            this.gridBand8.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand8.AppearanceHeader.Options.UseFont = true;
+            this.gridBand8.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand8.Columns.Add(this.bandedGridColumn6);
+            this.gridBand8.Name = "gridBand8";
+            this.gridBand8.RowCount = 2;
+            this.gridBand8.VisibleIndex = 5;
+            this.gridBand8.Width = 30;
+            // 
+            // gridBand9
+            // 
+            this.gridBand9.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand9.AppearanceHeader.Options.UseFont = true;
+            this.gridBand9.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand9.Columns.Add(this.bandedGridColumn7);
+            this.gridBand9.Name = "gridBand9";
+            this.gridBand9.RowCount = 2;
+            this.gridBand9.VisibleIndex = 6;
+            this.gridBand9.Width = 30;
+            // 
+            // gridBand10
+            // 
+            this.gridBand10.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand10.AppearanceHeader.Options.UseFont = true;
+            this.gridBand10.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand10.Columns.Add(this.bandedGridColumn8);
+            this.gridBand10.Name = "gridBand10";
+            this.gridBand10.RowCount = 2;
+            this.gridBand10.VisibleIndex = 7;
+            this.gridBand10.Width = 30;
+            // 
+            // gridBand11
+            // 
+            this.gridBand11.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand11.AppearanceHeader.Options.UseFont = true;
+            this.gridBand11.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand11.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand11.Columns.Add(this.bandedGridColumn9);
+            this.gridBand11.Name = "gridBand11";
+            this.gridBand11.RowCount = 2;
+            this.gridBand11.VisibleIndex = 8;
+            this.gridBand11.Width = 30;
+            // 
+            // gridBand12
+            // 
+            this.gridBand12.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand12.AppearanceHeader.Options.UseFont = true;
+            this.gridBand12.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand12.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand12.Columns.Add(this.bandedGridColumn10);
+            this.gridBand12.Name = "gridBand12";
+            this.gridBand12.RowCount = 2;
+            this.gridBand12.VisibleIndex = 9;
+            this.gridBand12.Width = 30;
+            // 
+            // gridBand13
+            // 
+            this.gridBand13.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand13.AppearanceHeader.Options.UseFont = true;
+            this.gridBand13.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand13.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand13.Columns.Add(this.bandedGridColumn11);
+            this.gridBand13.Name = "gridBand13";
+            this.gridBand13.RowCount = 2;
+            this.gridBand13.VisibleIndex = 10;
+            this.gridBand13.Width = 30;
+            // 
+            // gridBand14
+            // 
+            this.gridBand14.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand14.AppearanceHeader.Options.UseFont = true;
+            this.gridBand14.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand14.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand14.Columns.Add(this.bandedGridColumn12);
+            this.gridBand14.Name = "gridBand14";
+            this.gridBand14.RowCount = 2;
+            this.gridBand14.VisibleIndex = 11;
+            this.gridBand14.Width = 30;
+            // 
+            // gridBand15
+            // 
+            this.gridBand15.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand15.AppearanceHeader.Options.UseFont = true;
+            this.gridBand15.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand15.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand15.Columns.Add(this.bandedGridColumn13);
+            this.gridBand15.Name = "gridBand15";
+            this.gridBand15.RowCount = 2;
+            this.gridBand15.VisibleIndex = 12;
+            this.gridBand15.Width = 30;
+            // 
+            // gridBand16
+            // 
+            this.gridBand16.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand16.AppearanceHeader.Options.UseFont = true;
+            this.gridBand16.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand16.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand16.Columns.Add(this.bandedGridColumn14);
+            this.gridBand16.Name = "gridBand16";
+            this.gridBand16.RowCount = 2;
+            this.gridBand16.VisibleIndex = 13;
+            this.gridBand16.Width = 30;
+            // 
+            // gridBand17
+            // 
+            this.gridBand17.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand17.AppearanceHeader.Options.UseFont = true;
+            this.gridBand17.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand17.Caption = "블럭교체";
+            this.gridBand17.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand18,
+            this.gridBand19});
+            this.gridBand17.Name = "gridBand17";
+            this.gridBand17.VisibleIndex = 14;
+            this.gridBand17.Width = 60;
+            // 
+            // gridBand18
+            // 
+            this.gridBand18.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand18.AppearanceHeader.Options.UseFont = true;
+            this.gridBand18.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand18.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand18.Caption = "#1";
+            this.gridBand18.Columns.Add(this.bandedGridColumn15);
+            this.gridBand18.Name = "gridBand18";
+            this.gridBand18.VisibleIndex = 0;
+            this.gridBand18.Width = 30;
+            // 
+            // gridBand19
+            // 
+            this.gridBand19.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand19.AppearanceHeader.Options.UseFont = true;
+            this.gridBand19.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand19.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand19.Caption = "#2";
+            this.gridBand19.Columns.Add(this.bandedGridColumn16);
+            this.gridBand19.Name = "gridBand19";
+            this.gridBand19.VisibleIndex = 1;
+            this.gridBand19.Width = 30;
+            // 
+            // gridBand20
+            // 
+            this.gridBand20.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand20.AppearanceHeader.Options.UseFont = true;
+            this.gridBand20.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand20.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand20.Caption = "진공도";
+            this.gridBand20.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand23,
+            this.gridBand27,
+            this.gridBand30,
+            this.gridBand31});
+            this.gridBand20.Name = "gridBand20";
+            this.gridBand20.VisibleIndex = 15;
+            this.gridBand20.Width = 120;
+            // 
+            // gridBand23
+            // 
+            this.gridBand23.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand23.AppearanceHeader.Options.UseFont = true;
+            this.gridBand23.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand23.Caption = "#1";
+            this.gridBand23.Columns.Add(this.bandedGridColumn17);
+            this.gridBand23.Name = "gridBand23";
+            this.gridBand23.VisibleIndex = 0;
+            this.gridBand23.Width = 30;
+            // 
+            // gridBand27
+            // 
+            this.gridBand27.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand27.AppearanceHeader.Options.UseFont = true;
+            this.gridBand27.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand27.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand27.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand27.Caption = "#2";
+            this.gridBand27.Columns.Add(this.bandedGridColumn18);
+            this.gridBand27.Name = "gridBand27";
+            this.gridBand27.VisibleIndex = 1;
+            this.gridBand27.Width = 30;
+            // 
+            // gridBand30
+            // 
+            this.gridBand30.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand30.AppearanceHeader.Options.UseFont = true;
+            this.gridBand30.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand30.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand30.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand30.Caption = "#3";
+            this.gridBand30.Columns.Add(this.bandedGridColumn19);
+            this.gridBand30.Name = "gridBand30";
+            this.gridBand30.VisibleIndex = 2;
+            this.gridBand30.Width = 30;
+            // 
+            // gridBand31
+            // 
+            this.gridBand31.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand31.AppearanceHeader.Options.UseFont = true;
+            this.gridBand31.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand31.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand31.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand31.Caption = "#4";
+            this.gridBand31.Columns.Add(this.bandedGridColumn20);
+            this.gridBand31.Name = "gridBand31";
+            this.gridBand31.VisibleIndex = 3;
+            this.gridBand31.Width = 30;
+            // 
+            // gridBand32
+            // 
+            this.gridBand32.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand32.AppearanceHeader.Options.UseFont = true;
+            this.gridBand32.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand32.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand32.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand32.Caption = "온조기 온도";
+            this.gridBand32.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand33,
+            this.gridBand34,
+            this.gridBand35,
+            this.gridBand36});
+            this.gridBand32.Name = "gridBand32";
+            this.gridBand32.VisibleIndex = 16;
+            this.gridBand32.Width = 161;
+            // 
+            // gridBand33
+            // 
+            this.gridBand33.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand33.AppearanceHeader.Options.UseFont = true;
+            this.gridBand33.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand33.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand33.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand33.Caption = "고정1";
+            this.gridBand33.Columns.Add(this.bandedGridColumn21);
+            this.gridBand33.Name = "gridBand33";
+            this.gridBand33.VisibleIndex = 0;
+            this.gridBand33.Width = 42;
+            // 
+            // gridBand34
+            // 
+            this.gridBand34.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand34.AppearanceHeader.Options.UseFont = true;
+            this.gridBand34.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand34.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand34.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand34.Caption = "고정2";
+            this.gridBand34.Columns.Add(this.bandedGridColumn22);
+            this.gridBand34.Name = "gridBand34";
+            this.gridBand34.VisibleIndex = 1;
+            this.gridBand34.Width = 39;
+            // 
+            // gridBand35
+            // 
+            this.gridBand35.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand35.AppearanceHeader.Options.UseFont = true;
+            this.gridBand35.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand35.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand35.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand35.Caption = "가동1";
+            this.gridBand35.Columns.Add(this.bandedGridColumn83);
+            this.gridBand35.Name = "gridBand35";
+            this.gridBand35.VisibleIndex = 2;
+            this.gridBand35.Width = 39;
+            // 
+            // gridBand36
+            // 
+            this.gridBand36.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand36.AppearanceHeader.Options.UseFont = true;
+            this.gridBand36.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand36.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand36.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand36.Caption = "가동2";
+            this.gridBand36.Columns.Add(this.bandedGridColumn84);
+            this.gridBand36.Name = "gridBand36";
+            this.gridBand36.VisibleIndex = 3;
+            this.gridBand36.Width = 41;
+            // 
+            // gridBand37
+            // 
+            this.gridBand37.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand37.AppearanceHeader.Options.UseFont = true;
+            this.gridBand37.Caption = "C/T";
+            this.gridBand37.Columns.Add(this.bandedGridColumn85);
+            this.gridBand37.Name = "gridBand37";
+            this.gridBand37.VisibleIndex = 17;
+            this.gridBand37.Width = 30;
+            // 
+            // gridBand38
+            // 
+            this.gridBand38.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand38.AppearanceHeader.Options.UseFont = true;
+            this.gridBand38.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand38.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand38.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand38.Caption = "JET COOL 타임 (지연 / 냉각 / 에어)";
+            this.gridBand38.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand164,
+            this.gridBand39,
+            this.gridBand40,
+            this.gridBand44,
+            this.gridBand55,
+            this.gridBand51,
+            this.gridBand59});
+            this.gridBand38.Name = "gridBand38";
+            this.gridBand38.VisibleIndex = 18;
+            this.gridBand38.Width = 592;
+            // 
+            // gridBand164
+            // 
+            this.gridBand164.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand164.AppearanceHeader.Options.UseFont = true;
+            this.gridBand164.Caption = "JET압력";
+            this.gridBand164.Columns.Add(this.bandedGridColumn123);
+            this.gridBand164.Name = "gridBand164";
+            this.gridBand164.VisibleIndex = 0;
+            this.gridBand164.Width = 52;
+            // 
+            // gridBand39
+            // 
+            this.gridBand39.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand39.AppearanceHeader.Options.UseFont = true;
+            this.gridBand39.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand39.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand39.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand39.Caption = "JET1";
+            this.gridBand39.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand45,
+            this.gridBand46,
+            this.gridBand47});
+            this.gridBand39.Name = "gridBand39";
+            this.gridBand39.VisibleIndex = 1;
+            this.gridBand39.Width = 90;
+            // 
+            // gridBand45
+            // 
+            this.gridBand45.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand45.AppearanceHeader.Options.UseFont = true;
+            this.gridBand45.Caption = "지연";
+            this.gridBand45.Columns.Add(this.bandedGridColumn89);
+            this.gridBand45.Name = "gridBand45";
+            this.gridBand45.VisibleIndex = 0;
+            this.gridBand45.Width = 30;
+            // 
+            // gridBand46
+            // 
+            this.gridBand46.Caption = "냉각";
+            this.gridBand46.Columns.Add(this.bandedGridColumn90);
+            this.gridBand46.Name = "gridBand46";
+            this.gridBand46.VisibleIndex = 1;
+            this.gridBand46.Width = 30;
+            // 
+            // gridBand47
+            // 
+            this.gridBand47.Caption = "에어";
+            this.gridBand47.Columns.Add(this.bandedGridColumn91);
+            this.gridBand47.Name = "gridBand47";
+            this.gridBand47.VisibleIndex = 2;
+            this.gridBand47.Width = 30;
+            // 
+            // gridBand40
+            // 
+            this.gridBand40.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand40.AppearanceHeader.Options.UseFont = true;
+            this.gridBand40.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand40.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand40.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand40.Caption = "JET2";
+            this.gridBand40.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand41,
+            this.gridBand42,
+            this.gridBand43});
+            this.gridBand40.Name = "gridBand40";
+            this.gridBand40.VisibleIndex = 2;
+            this.gridBand40.Width = 90;
+            // 
+            // gridBand41
+            // 
+            this.gridBand41.Caption = "지연";
+            this.gridBand41.Columns.Add(this.bandedGridColumn92);
+            this.gridBand41.Name = "gridBand41";
+            this.gridBand41.VisibleIndex = 0;
+            this.gridBand41.Width = 30;
+            // 
+            // gridBand42
+            // 
+            this.gridBand42.Caption = "냉각";
+            this.gridBand42.Columns.Add(this.bandedGridColumn93);
+            this.gridBand42.Name = "gridBand42";
+            this.gridBand42.VisibleIndex = 1;
+            this.gridBand42.Width = 30;
+            // 
+            // gridBand43
+            // 
+            this.gridBand43.Caption = "에어";
+            this.gridBand43.Columns.Add(this.bandedGridColumn94);
+            this.gridBand43.Name = "gridBand43";
+            this.gridBand43.VisibleIndex = 2;
+            this.gridBand43.Width = 30;
+            // 
+            // gridBand44
+            // 
+            this.gridBand44.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand44.AppearanceHeader.Options.UseFont = true;
+            this.gridBand44.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand44.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand44.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand44.Caption = "JET3";
+            this.gridBand44.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand48,
+            this.gridBand49,
+            this.gridBand50});
+            this.gridBand44.Name = "gridBand44";
+            this.gridBand44.VisibleIndex = 3;
+            this.gridBand44.Width = 90;
+            // 
+            // gridBand48
+            // 
+            this.gridBand48.Caption = "지연";
+            this.gridBand48.Columns.Add(this.bandedGridColumn95);
+            this.gridBand48.Name = "gridBand48";
+            this.gridBand48.VisibleIndex = 0;
+            this.gridBand48.Width = 30;
+            // 
+            // gridBand49
+            // 
+            this.gridBand49.Caption = "냉각";
+            this.gridBand49.Columns.Add(this.bandedGridColumn97);
+            this.gridBand49.Name = "gridBand49";
+            this.gridBand49.VisibleIndex = 1;
+            this.gridBand49.Width = 30;
+            // 
+            // gridBand50
+            // 
+            this.gridBand50.Caption = "에어";
+            this.gridBand50.Columns.Add(this.bandedGridColumn96);
+            this.gridBand50.Name = "gridBand50";
+            this.gridBand50.VisibleIndex = 2;
+            this.gridBand50.Width = 30;
+            // 
+            // gridBand55
+            // 
+            this.gridBand55.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand55.AppearanceHeader.Options.UseFont = true;
+            this.gridBand55.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand55.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand55.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand55.Caption = "JET4";
+            this.gridBand55.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand52,
+            this.gridBand53,
+            this.gridBand54});
+            this.gridBand55.Name = "gridBand55";
+            this.gridBand55.VisibleIndex = 4;
+            this.gridBand55.Width = 90;
+            // 
+            // gridBand52
+            // 
+            this.gridBand52.Caption = "지연";
+            this.gridBand52.Columns.Add(this.bandedGridColumn98);
+            this.gridBand52.Name = "gridBand52";
+            this.gridBand52.VisibleIndex = 0;
+            this.gridBand52.Width = 30;
+            // 
+            // gridBand53
+            // 
+            this.gridBand53.Caption = "냉각";
+            this.gridBand53.Columns.Add(this.bandedGridColumn100);
+            this.gridBand53.Name = "gridBand53";
+            this.gridBand53.VisibleIndex = 1;
+            this.gridBand53.Width = 30;
+            // 
+            // gridBand54
+            // 
+            this.gridBand54.Caption = "에어";
+            this.gridBand54.Columns.Add(this.bandedGridColumn99);
+            this.gridBand54.Name = "gridBand54";
+            this.gridBand54.VisibleIndex = 2;
+            this.gridBand54.Width = 30;
+            // 
+            // gridBand51
+            // 
+            this.gridBand51.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand51.AppearanceHeader.Options.UseFont = true;
+            this.gridBand51.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand51.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand51.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand51.Caption = "JET5";
+            this.gridBand51.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand56,
+            this.gridBand57,
+            this.gridBand58});
+            this.gridBand51.Name = "gridBand51";
+            this.gridBand51.VisibleIndex = 5;
+            this.gridBand51.Width = 90;
+            // 
+            // gridBand56
+            // 
+            this.gridBand56.Caption = "지연";
+            this.gridBand56.Columns.Add(this.bandedGridColumn101);
+            this.gridBand56.Name = "gridBand56";
+            this.gridBand56.VisibleIndex = 0;
+            this.gridBand56.Width = 30;
+            // 
+            // gridBand57
+            // 
+            this.gridBand57.Caption = "냉각";
+            this.gridBand57.Columns.Add(this.bandedGridColumn103);
+            this.gridBand57.Name = "gridBand57";
+            this.gridBand57.VisibleIndex = 1;
+            this.gridBand57.Width = 30;
+            // 
+            // gridBand58
+            // 
+            this.gridBand58.Caption = "에어";
+            this.gridBand58.Columns.Add(this.bandedGridColumn102);
+            this.gridBand58.Name = "gridBand58";
+            this.gridBand58.VisibleIndex = 2;
+            this.gridBand58.Width = 30;
+            // 
+            // gridBand59
+            // 
+            this.gridBand59.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridBand59.AppearanceHeader.Options.UseFont = true;
+            this.gridBand59.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridBand59.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridBand59.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridBand59.Caption = "JET6";
+            this.gridBand59.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand60,
+            this.gridBand61,
+            this.gridBand62});
+            this.gridBand59.Name = "gridBand59";
+            this.gridBand59.VisibleIndex = 6;
+            this.gridBand59.Width = 90;
+            // 
+            // gridBand60
+            // 
+            this.gridBand60.Caption = "지연";
+            this.gridBand60.Columns.Add(this.bandedGridColumn104);
+            this.gridBand60.Name = "gridBand60";
+            this.gridBand60.VisibleIndex = 0;
+            this.gridBand60.Width = 30;
+            // 
+            // gridBand61
+            // 
+            this.gridBand61.Caption = "냉각";
+            this.gridBand61.Columns.Add(this.bandedGridColumn106);
+            this.gridBand61.Name = "gridBand61";
+            this.gridBand61.VisibleIndex = 1;
+            this.gridBand61.Width = 30;
+            // 
+            // gridBand62
+            // 
+            this.gridBand62.Caption = "에어";
+            this.gridBand62.Columns.Add(this.bandedGridColumn105);
+            this.gridBand62.Name = "gridBand62";
+            this.gridBand62.VisibleIndex = 2;
+            this.gridBand62.Width = 30;
+            // 
             // PP0430
             // 
             this.ClientSize = new System.Drawing.Size(1394, 911);
@@ -6165,59 +6191,6 @@
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn104;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn106;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn105;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand2;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand3;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand6;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand7;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand8;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand9;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand10;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand11;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand12;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand13;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand14;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand15;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand16;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand17;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand18;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand19;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand20;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand23;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand27;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand30;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand31;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand32;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand33;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand34;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand35;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand36;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand37;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand38;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand39;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand45;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand46;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand47;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand40;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand41;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand42;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand43;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand44;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand48;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand49;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand50;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand55;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand52;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand53;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand54;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand51;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand56;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand57;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand58;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand59;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand60;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand61;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand62;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand134;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand135;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand136;
@@ -6287,5 +6260,60 @@
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand130;
         private DevExpress.XtraEditors.SimpleButton btnNext;
         private DevExpress.XtraEditors.SimpleButton btnPrev;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn123;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand2;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand3;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand6;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand7;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand8;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand9;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand10;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand11;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand12;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand13;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand14;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand15;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand16;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand17;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand18;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand19;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand20;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand23;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand27;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand30;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand31;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand32;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand33;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand34;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand35;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand36;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand37;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand38;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand164;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand39;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand45;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand46;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand47;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand40;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand41;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand42;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand43;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand44;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand48;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand49;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand50;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand55;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand52;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand53;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand54;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand51;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand56;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand57;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand58;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand59;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand60;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand61;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand62;
     }
 }

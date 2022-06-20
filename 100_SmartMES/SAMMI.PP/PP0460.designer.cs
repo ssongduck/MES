@@ -66,7 +66,6 @@
             this.bandedGridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridColumn113 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -95,6 +94,7 @@
             this.gridColumn29 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn30 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn31 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumn113 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn32 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn33 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn34 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -533,6 +533,8 @@
             // 
             // GridView1
             // 
+            this.GridView1.Appearance.BandPanel.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GridView1.Appearance.BandPanel.Options.UseFont = true;
             this.GridView1.Bands.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
             this.gridBand2,
             this.gridBand5,
@@ -804,14 +806,6 @@
             this.gridColumn5.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.gridColumn5.Visible = true;
             this.gridColumn5.Width = 40;
-            // 
-            // gridColumn113
-            // 
-            this.gridColumn113.Caption = "입력 C/T";
-            this.gridColumn113.FieldName = "RealcycleTime";
-            this.gridColumn113.Name = "gridColumn113";
-            this.gridColumn113.Visible = true;
-            this.gridColumn113.Width = 54;
             // 
             // gridColumn6
             // 
@@ -1202,6 +1196,14 @@
             this.gridColumn31.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.gridColumn31.Visible = true;
             this.gridColumn31.Width = 109;
+            // 
+            // gridColumn113
+            // 
+            this.gridColumn113.Caption = "입력 C/T";
+            this.gridColumn113.FieldName = "RealcycleTime";
+            this.gridColumn113.Name = "gridColumn113";
+            this.gridColumn113.Visible = true;
+            this.gridColumn113.Width = 54;
             // 
             // gridColumn32
             // 
@@ -2965,6 +2967,8 @@
             // 
             // gridBand149
             // 
+            this.gridBand149.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 8.25F);
+            this.gridBand149.AppearanceHeader.Options.UseFont = true;
             this.gridBand149.Caption = "입력 C/T";
             this.gridBand149.Columns.Add(this.gridColumn113);
             this.gridBand149.Name = "gridBand149";
@@ -3798,6 +3802,8 @@
             // 
             // JET압력
             // 
+            this.JET압력.AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 8.25F);
+            this.JET압력.AppearanceHeader.Options.UseFont = true;
             this.JET압력.Caption = "JET압력";
             this.JET압력.Columns.Add(this.bandedGridColumn4);
             this.JET압력.Name = "JET압력";

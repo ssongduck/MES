@@ -321,13 +321,13 @@ namespace SAMMI.PP
                 //sqlParameters1[5] = sqlDBHelper.CreateParameter("@INLOTNO", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
                 //sqlParameters1[6] = sqlDBHelper.CreateParameter("@LOTNO", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
 
-                //sqlParameters2[0] = sqlDBHelper.CreateParameter("@PLANTCODE", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[1] = sqlDBHelper.CreateParameter("@STARTDATE", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[2] = sqlDBHelper.CreateParameter("@ENDDATE", sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[3] = sqlDBHelper.CreateParameter("@WORKCENTERCODE", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[4] = sqlDBHelper.CreateParameter("@ITEMCODE", sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[5] = sqlDBHelper.CreateParameter("@INLOTNO", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
-                //sqlParameters2[6] = sqlDBHelper.CreateParameter("@LOTNO", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[0] = sqlDBHelper.CreateParameter("@PLANTCODE", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[1] = sqlDBHelper.CreateParameter("@STARTDATE", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[2] = sqlDBHelper.CreateParameter("@ENDDATE", sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[3] = sqlDBHelper.CreateParameter("@WORKCENTERCODE", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[4] = sqlDBHelper.CreateParameter("@ITEMCODE", sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[5] = sqlDBHelper.CreateParameter("@INLOTNO", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[6] = sqlDBHelper.CreateParameter("@LOTNO", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
 
                 sqlParameters[0] = sqlDBHelper.CreateParameter("@PLANTCODE", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
                 sqlParameters[1] = sqlDBHelper.CreateParameter("@STARTDATE", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
@@ -337,20 +337,11 @@ namespace SAMMI.PP
                 sqlParameters[5] = sqlDBHelper.CreateParameter("@INLOTNO", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
                 sqlParameters[6] = sqlDBHelper.CreateParameter("@LOTNO", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
 
-                sqlParameters2[0] = sqlDBHelper.CreateParameter("@PlantCode", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[1] = sqlDBHelper.CreateParameter("@StartDate", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[2] = sqlDBHelper.CreateParameter("@EndDate", sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[3] = sqlDBHelper.CreateParameter("@WorkCenterCode", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[4] = sqlDBHelper.CreateParameter("@OPCode", sOPCode, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[5] = sqlDBHelper.CreateParameter("@LineCode", sLineCode, SqlDbType.VarChar, ParameterDirection.Input);
-                sqlParameters2[6] = sqlDBHelper.CreateParameter("@ItemCode", sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
-
-
                 //_RtnDt1 = sqlDBHelper.FillTable("USP_PP0330_S2N_UNION", CommandType.StoredProcedure, sqlParameters1);
                 //_RtnDt2 = sqlDBHelper.FillTable("USP_PP0330_S1N_UNION", CommandType.StoredProcedure, sqlParameters2);
 
                 _RtnDt = sqlDBHelper.FillTable("USP_PP0330_S1N_UNION", CommandType.StoredProcedure, sqlParameters);
-                _RtnDt2 = sqlDBHelper.FillTable("USP_PP0310_S1_UNION", CommandType.StoredProcedure, sqlParameters2);
+                _RtnDt2 = sqlDBHelper.FillTable("USP_PP0330_S1N_UNION", CommandType.StoredProcedure, sqlParameters2);
 
                 grid1.DataSource = _RtnDt;
                 grid1.DataBind();

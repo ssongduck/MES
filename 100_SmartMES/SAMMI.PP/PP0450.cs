@@ -204,7 +204,7 @@ namespace SAMMI.PP
                                                    dt.Columns[i].ColumnName == "StopSum"   ? "합계"     :
                                                    dt.Columns[i].ColumnName == "StopRatio" ? "점유율"   : dt.Columns[i].ColumnName;
 
-                    gridView1.Columns[i].Width = 60;
+                    gridView1.Columns[i].Width = 49;
                     gridView1.Columns[i].AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
                     gridView1.Columns[i].AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
                     gridView1.Columns[i].AppearanceHeader.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
