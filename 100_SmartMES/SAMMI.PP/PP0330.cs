@@ -58,6 +58,7 @@ namespace SAMMI.PP
         /// </summary>
         UltraGridUtil _UltraGridUtil = new UltraGridUtil();
 
+
         /// <summary>
         /// Common
         /// </summary>
@@ -152,6 +153,29 @@ namespace SAMMI.PP
             _UltraGridUtil.InitColumnUltraGrid(grid1, "badqty",         "불량수량",   false, GridColDataType_emu.Integer, 100, 100, Infragistics.Win.HAlign.Right, true, false, "#,###", null, null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(grid1, "makedate",       "생산일시",   false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
             _UltraGridUtil.SetInitUltraGridBind(grid1);
+
+            _UltraGridUtil.InitializeGrid(this.grid2, true, false, false, "", false);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "recdate", "일자", false, GridColDataType_emu.YearMonthDay, 100, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "opcode", "공정코드", false, GridColDataType_emu.VarChar, 105, 100, Infragistics.Win.HAlign.Center, false, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "linecode", "라인코드", false, GridColDataType_emu.VarChar, 70, 100, Infragistics.Win.HAlign.Left, false, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "linename", "라인명", false, GridColDataType_emu.VarChar, 80, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "workcentercode", "작업장코드", false, GridColDataType_emu.VarChar, 80, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "workcentername", "작업장명", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "itemcode", "품번", false, GridColDataType_emu.VarChar, 120, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "itemname", "품명", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "orderno", "지시번호", false, GridColDataType_emu.VarChar, 130, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "moldcode", "금형코드", false, GridColDataType_emu.VarChar, 80, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "moldname", "금형명", false, GridColDataType_emu.VarChar, 80, 100, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "planQty", "계획수량", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "dQty", "Lot(주)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "nQty", "Lot(야)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "tQty", "Lot(계)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "dEqty", "불량(주)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "nEqty", "불량(야)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "tEqty", "불량(계)", false, GridColDataType_emu.Integer, 80, 100, Infragistics.Win.HAlign.Right, true, false, "#,##0", null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(grid2, "endDate", "종료시간", false, GridColDataType_emu.DateTime24, 130, 100, Infragistics.Win.HAlign.Right, true, false, null, null, null, null, null);
+            _UltraGridUtil.SetInitUltraGridBind(grid2);
+
             //_UltraGridUtil.InitializeGrid(this.grid1, true, false, false, "", false);
             //_UltraGridUtil.InitColumnUltraGrid(grid1, "PLANTCODE", "사업장", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, (this._PlantCode == "") ? true : false, false, null, null, null, null, null);
             //_UltraGridUtil.InitColumnUltraGrid(grid1, "WORKCENTERCODE", "작업장", false, GridColDataType_emu.VarChar, 100, 100, Infragistics.Win.HAlign.Left, true, false, null, null, null, null, null);
@@ -247,11 +271,11 @@ namespace SAMMI.PP
         /// <param name="e"></param>
         private void grid2_InitializeRow(object sender, InitializeRowEventArgs e)
         {
-            if (e.Row.Cells["CAST_ITEMNAME"].Value.ToString() == "품목계")
+            if (e.Row.Cells["ITEMNAME"].Value.ToString() == "품목계")
             {
                 e.Row.Appearance.BackColor = Color.LightCyan;
             }
-            else if (e.Row.Cells["CAST_ITEMNAME"].Value.ToString() == "작업장계")
+            else if (e.Row.Cells["ITEMNAME"].Value.ToString() == "작업장계")
             {
                 e.Row.Appearance.BackColor = Color.LightBlue;
             }
@@ -272,6 +296,7 @@ namespace SAMMI.PP
             //SqlParameter[] sqlParameters2 = new SqlParameter[7];
 
             SqlParameter[] sqlParameters = new SqlParameter[7];
+            SqlParameter[] sqlParameters2 = new SqlParameter[7];
 
             try
             {               
@@ -312,18 +337,28 @@ namespace SAMMI.PP
                 sqlParameters[5] = sqlDBHelper.CreateParameter("@INLOTNO", txtInLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
                 sqlParameters[6] = sqlDBHelper.CreateParameter("@LOTNO", txtLot.Text, SqlDbType.VarChar, ParameterDirection.Input);
 
+                sqlParameters2[0] = sqlDBHelper.CreateParameter("@PlantCode", sPlantCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[1] = sqlDBHelper.CreateParameter("@StartDate", sStartDate, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[2] = sqlDBHelper.CreateParameter("@EndDate", sEndDate, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[3] = sqlDBHelper.CreateParameter("@WorkCenterCode", sWorkCenterCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[4] = sqlDBHelper.CreateParameter("@OPCode", sOPCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[5] = sqlDBHelper.CreateParameter("@LineCode", sLineCode, SqlDbType.VarChar, ParameterDirection.Input);
+                sqlParameters2[6] = sqlDBHelper.CreateParameter("@ItemCode", sItemCode, SqlDbType.VarChar, ParameterDirection.Input);
+
+
                 //_RtnDt1 = sqlDBHelper.FillTable("USP_PP0330_S2N_UNION", CommandType.StoredProcedure, sqlParameters1);
                 //_RtnDt2 = sqlDBHelper.FillTable("USP_PP0330_S1N_UNION", CommandType.StoredProcedure, sqlParameters2);
 
                 _RtnDt = sqlDBHelper.FillTable("USP_PP0330_S1N_UNION", CommandType.StoredProcedure, sqlParameters);
+                _RtnDt2 = sqlDBHelper.FillTable("USP_PP0310_S1_UNION", CommandType.StoredProcedure, sqlParameters2);
 
                 grid1.DataSource = _RtnDt;
                 grid1.DataBind();
                 _ChangeDt = _RtnDt;
 
-                //grid2.DataSource = _RtnDt2;
-                //grid2.DataBind();
-                //_ChangeDt2 = _RtnDt2;
+                grid2.DataSource = _RtnDt2;
+                grid2.DataBind();
+                _ChangeDt2 = _RtnDt2;
             }
             catch (Exception ex)
             {
