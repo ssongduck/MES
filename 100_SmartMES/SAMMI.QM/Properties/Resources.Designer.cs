@@ -163,6 +163,16 @@ namespace SAMMI.QM.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap BACK_0DD325064D {
+            get {
+                object obj = ResourceManager.GetObject("BACK_0DD325064D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap BACK_0DD325473C {
             get {
                 object obj = ResourceManager.GetObject("BACK_0DD325473C", resourceCulture);
@@ -536,6 +546,16 @@ namespace SAMMI.QM.Properties {
         internal static System.Drawing.Bitmap FRONT_0DD325064C1 {
             get {
                 object obj = ResourceManager.GetObject("FRONT_0DD325064C1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap FRONT_0DD325064D {
+            get {
+                object obj = ResourceManager.GetObject("FRONT_0DD325064D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

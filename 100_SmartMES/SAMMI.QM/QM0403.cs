@@ -1462,6 +1462,13 @@ namespace SAMMI.QM
                 this.layoutControlFrontBack.Bind(global::SAMMI.QM.Properties.Resources.FRONT_0DD325474C, FrontBack.FRONT);
                 this.layoutControlFrontBack1.Bind(global::SAMMI.QM.Properties.Resources.BACK_0DD325474C, FrontBack.BACK);
             }
+            else if (sItemCode == "0DD325064D")
+            {
+                this.layoutControlFront.Bind(global::SAMMI.QM.Properties.Resources.FRONT_0DD325064D, FrontBack.FRONT);
+                this.layoutControlBack.Bind(global::SAMMI.QM.Properties.Resources.BACK_0DD325064D, FrontBack.BACK);
+                this.layoutControlFrontBack.Bind(global::SAMMI.QM.Properties.Resources.FRONT_0DD325064D, FrontBack.FRONT);
+                this.layoutControlFrontBack1.Bind(global::SAMMI.QM.Properties.Resources.BACK_0DD325064D, FrontBack.BACK);
+            }
             else if (sItemCode == "MEK65172301-50" || sItemCode == "MEK65172301")
             {
                 this.layoutControlFront.Bind(global::SAMMI.QM.Properties.Resources.FRONT_MEK65172301, FrontBack.FRONT);
