@@ -694,12 +694,14 @@
     <None Include="Resources\FRONT_MEK64486501.jpg" />
     <None Include="Resources\FRONT_MEK65166901.jpg" />
     <None Include="Resources\FRONT_MEK65172301.jpg" />
+    <None Include="Resources\BACK_0DD325064D.PNG" />
     <Content Include="Resources\BACK_21111_07000.jpg" />
     <Content Include="Resources\BACK_21111_07500.jpg" />
     <Content Include="Resources\BACK_21111_08000.jpg" />
     <Content Include="Resources\BACK_GS22701_2.jpg" />
     <Content Include="Resources\BACK_GS22701_5.jpg" />
     <None Include="Resources\endplate.png" />
+    <None Include="Resources\FRONT_0DD325064D.PNG" />
     <Content Include="Resources\FRONT_21111_07000.jpg" />
     <Content Include="Resources\FRONT_21111_07500.jpg" />
     <Content Include="Resources\FRONT_21111_08000.jpg" />
