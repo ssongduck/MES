@@ -557,9 +557,11 @@ namespace SAMMI.PP
         {
             XlsxExportOptionsEx xlsxOptions = new XlsxExportOptionsEx();
             xlsxOptions.ExportType = DevExpress.Export.ExportType.WYSIWYG;
-            string path = "가동율현황_" + DateTime.Now.ToString("YYYY-MM-DD") + ".xlsx";
+            string path = "가동율현황_" + DateTime.Now.ToString("yyyy-MM-dd") + ".xlsx";
             gridControl1.ExportToXlsx(path);
             Process.Start(path);
+
+
         }
 
         #endregion
