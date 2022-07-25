@@ -160,6 +160,10 @@ namespace SAMMI.QM
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "DATA12",  "높이#2측정값", false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "JUDGE13", "T45관통판정",  false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "JUDGE14", "T46관통판정",  false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(gridItemList, "JUDGE15", "높이#3판정", false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(gridItemList, "DATA13", "높이#3측정값", false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(gridItemList, "JUDGE16", "높이#4판정", false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
+            _UltraGridUtil.InitColumnUltraGrid(gridItemList, "DATA14", "높이#4측정값", false, GridColDataType_emu.VarChar, 100, 250, Infragistics.Win.HAlign.Center, true, false, null, null, null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "LASTEVENT_TIME01", "#410공정 작업시간", false, GridColDataType_emu.DateTime, 150, 200, Infragistics.Win.HAlign.Center, true, false, null, "yyyy-MM-dd hh:mm:ss", null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "LASTEVENT_TIME02", "#420공정 작업시간", false, GridColDataType_emu.DateTime, 150, 200, Infragistics.Win.HAlign.Center, true, false, null, "yyyy-MM-dd hh:mm:ss", null, null, null);
             _UltraGridUtil.InitColumnUltraGrid(gridItemList, "LASTEVENT_TIME03", "#430공정 작업시간", false, GridColDataType_emu.DateTime, 150, 200, Infragistics.Win.HAlign.Center, true, false, null, "yyyy-MM-dd hh:mm:ss", null, null, null);
@@ -251,6 +255,10 @@ namespace SAMMI.QM
                                             ,DATA12
                                             ,JUDGE13
                                             ,JUDGE14
+                                            ,JUDGE15
+                                            ,DATA13
+                                            ,JUDGE16
+                                            ,DATA14
                                             ,LASTEVENT_TIME01
                                             ,LASTEVENT_TIME02
                                             ,LASTEVENT_TIME03
